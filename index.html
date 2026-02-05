@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام تسجيل المواد - الجامعة السورية الخاصة</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- العنوان الرئيسي -->
+        <header>
+            <div class="university-header">
+                <img src="spu.png" alt="شعار الجامعة" class="logo">
+                <div>
+                    <h1><i class="fas fa-university"></i> نظام تسجيل المواد</h1>
+                    <h2>الجامعة السورية الخاصة - كلية هندسة الذكاء الاصطناعي</h2>
+                    <p class="semester">coded by Hesham</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- القائمة الجانبية -->
+            <aside class="sidebar">
+                <div class="user-info">
+                    <div class="avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>الطالب: [اسمك]</h3>
+                    <p>رقم القيد: [رقمك]</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-value" id="total-hours">0</span>
+                            <span class="stat-label">ساعة معتمدة</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value" id="total-courses">0</span>
+                            <span class="stat-label">مادة مسجلة</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filters">
+                    <h3><i class="fas fa-filter"></i> تصفية المواد</h3>
+                    <input type="text" id="search" placeholder="🔍 ابحث عن مادة...">
+                    
+                    <div class="filter-group">
+                        <label><input type="checkbox" id="filter-theory" checked> نظري</label>
+                        <label><input type="checkbox" id="filter-lab" checked> عملي</label>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label><input type="checkbox" id="filter-monday" checked> الإثنين</label>
+                        <label><input type="checkbox" id="filter-tuesday" checked> الثلاثاء</label>
+                        <label><input type="checkbox" id="filter-wednesday" checked> الأربعاء</label>
+                        <label><input type="checkbox" id="filter-thursday" checked> الخميس</label>
+                        <label><input type="checkbox" id="filter-friday" checked> الجمعة</label>
+                    </div>
+                </div>
+
+                <div class="instructions">
+                    <h3><i class="fas fa-info-circle"></i> تعليمات</h3>
+                    <ul>
+                        <li>انقر على مادة لإضافتها لجدولك</li>
+                        <li>اللون الأحمر يعني تداخل في الوقت</li>
+                        <li>الحد الأقصى: 18 ساعة معتمدة</li>
+                        <li>انقر على المادة المسجلة لحذفها</li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!-- المحتوى الرئيسي -->
+            <main class="content">
+                <!-- قسم المواد المتاحة -->
+                <section class="available-courses">
+                    <h2><i class="fas fa-book-open"></i> المواد المتاحة للتسجيل</h2>
+                    <div class="courses-list" id="available-courses">
+                        <!-- المواد ستضاف هنا بالجافاسكريبت -->
+                    </div>
+                </section>
+
+                <!-- قسم الجدول الأسبوعي -->
+                <section class="timetable-section">
+                    <h2><i class="fas fa-calendar-alt"></i> جدولك الأسبوعي</h2>
+                    <div class="timetable">
+                        <div class="timetable-header">
+                            <div class="time-slot">الوقت</div>
+                            <div class="day">الإثنين</div>
+                            <div class="day">الثلاثاء</div>
+                            <div class="day">الأربعاء</div>
+                            <div class="day">الخميس</div>
+                            <div class="day">الجمعة</div>
+                        </div>
+                        <div class="timetable-body" id="timetable-body">
+                            <!-- الجدول سيتم ملؤه بالجافاسكريبت -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- قسم المواد المسجلة -->
+                <section class="registered-courses">
+                    <h2><i class="fas fa-clipboard-list"></i> المواد المسجلة</h2>
+                    <div class="courses-list" id="registered-courses">
+                        <!-- المواد المسجلة ستظهر هنا -->
+                    </div>
+                    <div class="actions">
+                        <button id="save-btn" class="btn-primary">
+                            <i class="fas fa-save"></i> حفظ التسجيل
+                        </button>
+                        <button id="clear-btn" class="btn-secondary">
+                            <i class="fas fa-trash"></i> مسح الكل
+                        </button>
+                        <button id="print-btn" class="btn-secondary">
+                            <i class="fas fa-print"></i> طباعة الجدول
+                        </button>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- نافذة التنبيه -->
+        <div id="alert-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3 id="alert-title"></h3>
+                <p id="alert-message"></p>
+                <button id="alert-ok" class="btn-primary">موافق</button>
+            </div>
+        </div>
+    </div>
+
+            <!-- Page Footer -->
+        <footer class="footer mt-5 py-4">
+            <p class="footer-text mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, Created By <a href="https://www.instagram.com/_hs.m_" target="_blank">Hesham.</a> All rights reserved </p>     
+        </footer>        
+        <!-- End of Page Footer -->  
+
+
+    <script src="script4.js"></script>
+</body>
+</html>

@@ -1,0 +1,564 @@
+/* التنسيقات العامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* العنوان */
+.university-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(135deg, #2C3E50, #4A6491);
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.university-header .logo {
+    border-radius: 10px;
+}
+
+.university-header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.university-header h2 {
+    font-size: 18px;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 5px;
+}
+
+.semester {
+    background-color: #3498db;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+/* التخطيط الرئيسي */
+.main-content {
+    display: flex;
+    gap: 25px;
+}
+
+/* القائمة الجانبية */
+.sidebar {
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.user-info {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.avatar i {
+    font-size: 36px;
+    color: white;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-value {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #7f8c8d;
+}
+
+.filters, .instructions {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.filters h3, .instructions h3 {
+    color: #2C3E50;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#search {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e6ed;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.filter-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.instructions ul {
+    padding-right: 20px;
+}
+
+.instructions li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* المحتوى الرئيسي */
+.content {
+    flex: 1;
+}
+
+.available-courses, .timetable-section, .registered-courses {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #2C3E50;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f3f7;
+}
+
+/* قائمة المواد */
+.courses-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.course-card {
+    background: white;
+    border: 2px solid #e0e6ed;
+    border-radius: 10px;
+    padding: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.course-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-color: #3498db;
+}
+
+.course-card.registered {
+    background-color: #e8f4fc;
+    border-color: #3498db;
+}
+
+.course-card.conflict {
+    background-color: #ffeaea;
+    border-color: #e74c3c;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+.course-code {
+    font-weight: bold;
+    color: #2C3E50;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.course-name {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.course-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.course-detail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.course-detail i {
+    color: #3498db;
+}
+
+/* الجدول الأسبوعي */
+.timetable {
+    border: 1px solid #e0e6ed;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.timetable-header {
+    display: grid;
+    grid-template-columns: 100px repeat(5, 1fr);
+    background: #2C3E50;
+    color: white;
+    font-weight: bold;
+}
+
+.timetable-header > div {
+    padding: 15px;
+    text-align: center;
+    border-left: 1px solid #4A6491;
+}
+
+.timetable-header .time-slot {
+    border-left: none;
+}
+
+.timetable-body {
+    display: grid;
+    grid-template-columns: 100px repeat(5, 1fr);
+}
+
+.time-cell {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e0e6ed;
+    border-left: 1px solid #e0e6ed;
+    background-color: #f8fafc;
+    font-weight: 500;
+    color: #555;
+}
+
+.day-cell {
+    padding: 12px;
+    border-bottom: 1px solid #e0e6ed;
+    border-left: 1px solid #e0e6ed;
+    min-height: 70px;
+    position: relative;
+}
+
+.course-in-timetable {
+    background: #3498db;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 2px 0;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.course-in-timetable:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+.course-in-timetable.theory {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+}
+
+.course-in-timetable.lab {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+}
+
+/* الأزرار */
+.actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 0.3s;
+    flex: 1;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #2980b9, #1c5d87);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background: white;
+    color: #2C3E50;
+    border: 2px solid #e0e6ed;
+}
+
+.btn-secondary:hover {
+    background: #f8f9fa;
+    border-color: #3498db;
+    transform: translateY(-2px);
+}
+
+/* النافذة المنبثقة */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #333;
+}
+
+/* تصميم متجاوب */
+@media (max-width: 1100px) {
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+    }
+    
+    .courses-list {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .university-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .timetable-header, .timetable-body {
+        grid-template-columns: 80px repeat(5, 1fr);
+        font-size: 14px;
+    }
+    
+    .time-cell, .day-cell {
+        padding: 8px;
+    }
+    
+    .actions {
+        flex-direction: column;
+    }
+}
+
+/* تخصيص للغة العربية */
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="rtl"] .instructions ul {
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+[dir="rtl"] .timetable-header > div {
+    border-right: 1px solid #4A6491;
+    border-left: none;
+}
+
+[dir="rtl"] .time-cell, [dir="rtl"] .day-cell {
+    border-right: 1px solid #e0e6ed;
+    border-left: none;
+}
+
+[dir="rtl"] .close {
+    right: 15px;
+    left: auto;
+}
+/* تصحيح عرض الجدول لأربعة أيام فقط */
+.timetable-header {
+    display: grid;
+    grid-template-columns: 100px repeat(4, 1fr);
+}
+
+.timetable-body {
+    display: grid;
+    grid-template-columns: 100px repeat(4, 1fr);
+}
+
+/* للأجهزة الصغيرة */
+@media (max-width: 768px) {
+    .timetable-header, .timetable-body {
+        grid-template-columns: 60px repeat(4, 1fr);
+        font-size: 12px;
+    }
+    
+    .course-in-timetable {
+        font-size: 10px;
+        padding: 4px;
+    }
+}
+
+/* رسالة لا توجد مواد */
+.no-courses {
+    text-align: center;
+    padding: 40px;
+    color: #7f8c8d;
+    font-size: 18px;
+    grid-column: 1 / -1;
+}
+
+/* لون النجاح */
+.success {
+    color: #27ae60;
+}
+
+/*footer*/
+
+.footer {
+  width: 100%;
+  background-color: #00274f; /* Background color */
+  color: #ffffff; /* Text color */
+  text-align: center; /* Center align text */
+  padding: 20px 0; /* Add padding top and bottom */
+  margin-top: 20px; /* Add some space at the top */
+}
+
+.footer-text {
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+.footer a {
+  color: #00d6d7; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.course-card.conflict {
+    border: 2px solid #e74c3c;
+    animation: pulse 2s infinite;
+    position: relative;
+}
+
+.course-card.conflict::after {
+    content: "⚠️ تداخل";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: #e74c3c;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+}
