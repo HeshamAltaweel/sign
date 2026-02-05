@@ -703,7 +703,7 @@ const availableCourses = [
         credits: 3,
         instructor: "د. ياسر نصر ",
         day: "الأحد",
-        time: "08:00 - 09:40",
+        time: "08:00 - 10:30",
         room: "الشعبة 1",
         color: "#27ae60"
     },
@@ -715,7 +715,7 @@ const availableCourses = [
         credits: 3,
         instructor: "د. ياسر نصر",
         day: "الاثنين",
-        time: "08:00 - 09:40",
+        time: "08:00 - 10:30",
         room: "الشعبة 3",
         color: "#1abc9c"
     },
@@ -727,7 +727,7 @@ const availableCourses = [
         credits: 3,
         instructor: "د. ياسر نصر ",
         day: "الثلاثاء",
-        time: "08:00 - 09:40",
+        time: "08:00 - 10:30",
         room: "الشعبة 5",
         color: "#c0392b"
     },
@@ -2023,3 +2023,4 @@ function showAlert(title, message, type = 'warning') {
 
 // تهيئة التطبيق عند تحميل الصفحة
 document.addEventListener('DOMContentLoaded', initApp);
+
