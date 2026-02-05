@@ -1259,6 +1259,174 @@ const availableCourses = [
         room: "6ش",
         color: "#2c3e50"
     },
+    {
+        id: 106,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "لمى عبد الفتاح",
+        day: "الأحد",
+        time: "08:00 - 10:30",
+        room: "4",
+        color: "#d35400"
+    },
+    {
+        id: 107,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "لمى عبد الفتاح",
+        day: "الأحد",
+        time: "10:30 - 13:00",
+        room: "5",
+        color: "#9b59b6"
+    },
+    {
+        id: 108,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "لمى عبد الفتاح",
+        day: "الأحد",
+        time: "13:00 - 15:30",
+        room: "6",
+        color: "#8e44ad"
+    },
+    {
+        id: 109,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "راما المصري",
+        day: "الأحد",
+        time: "08:00 - 10:30",
+        room: "1",
+        color: "#16a085"
+    },
+    {
+        id: 110,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "راما المصري",
+        day: "الأحد",
+        time: "10:30 - 13:00",
+        room: "2",
+        color: "#8e44ad"
+    },
+    {
+        id: 111,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "راما المصري",
+        day: "الأحد",
+        time: "13:00 - 15:30",
+        room: "3",
+        color: "#e67e22"
+    },
+    {
+        id: 112,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "راما المصري",
+        day: "الاثنين",
+        time: "08:00 - 10:30",
+        room: "7",
+        color: "#1abc9c"
+    },
+    {
+        id: 113,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "راما المصري",
+        day: "الاثنين",
+        time: "10:30 - 13:00",
+        room: "8",
+        color: "#e74c3c"
+    },
+    {
+        id: 114,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "زهير خليل",
+        day: "الاثنين",
+        time: "08:00 - 10:30",
+        room: "9",
+        color: "#27ae60"
+    },
+    {
+        id: 115,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "زهير خليل",
+        day: "الاثنين",
+        time: "10:30 - 13:00",
+        room: "10",
+        color: "#16a085"
+    },
+    {
+        id: 116,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "زهير خليل",
+        day: "الاثنين",
+        time: "13:00 - 15:30",
+        room: "11",
+        color: "#2980b9"
+    },
+    {
+        id: 117,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "لمى عبد الفتاح",
+        day: "الثلاثاء",
+        time: "08:00 - 10:30",
+        room: "12",
+        color: "#d35400"
+    },
+    {
+        id: 118,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "لمى عبد الفتاح",
+        day: "الثلاثاء",
+        time: "10:30 - 13:00",
+        room: "13",
+        color: "#3498db"
+    },
+    {
+        id: 119,
+        code: "انكليزي2",
+        name: "انكليزي 2",
+        type: "theory",
+        credits: 3,
+        instructor: "لمى عبد الفتاح",
+        day: "الثلاثاء",
+        time: "13:00 - 15:30",
+        room: "14",
+        color: "#d35400"
+    },
 ];
 
 // المتغيرات العامة
@@ -2023,4 +2191,5 @@ function showAlert(title, message, type = 'warning') {
 
 // تهيئة التطبيق عند تحميل الصفحة
 document.addEventListener('DOMContentLoaded', initApp);
+
 
