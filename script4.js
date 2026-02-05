@@ -109,7 +109,7 @@ const availableCourses = [
     },
     {
         id: 10,
-        code: "رياضياتمتقطعة",
+        code: "متقطعة",
         name: "رياضيات متقطعة",
         type: "theory",
         credits: 3,
@@ -121,7 +121,7 @@ const availableCourses = [
     },
     {
         id: 11,
-        code: "جبرخطيونظريةالمصفوفات",
+        code: "جبر",
         name: "جبر خطي ونظرية المصفوفات",
         type: "theory",
         credits: 3,
@@ -133,7 +133,7 @@ const availableCourses = [
     },
     {
         id: 12,
-        code: "جبرخطيونظريةالمصفوفات",
+        code: "جبر",
         name: "جبر خطي ونظرية المصفوفات",
         type: "theory",
         credits: 3,
@@ -145,7 +145,7 @@ const availableCourses = [
     },
     {
         id: 13,
-        code: "جبرخطيونظريةالمصفوفات",
+        code: "جبر",
         name: "جبر خطي ونظرية المصفوفات",
         type: "theory",
         credits: 3,
@@ -157,7 +157,7 @@ const availableCourses = [
     },
     {
         id: 14,
-        code: "رياضياتمتقطعة",
+        code: "متقطعة",
         name: "رياضيات متقطعة",
         type: "theory",
         credits: 3,
@@ -169,7 +169,7 @@ const availableCourses = [
     },
     {
         id: 15,
-        code: "رياضياتمتقطعة",
+        code: "متقطعة",
         name: "رياضيات متقطعة",
         type: "theory",
         credits: 3,
