@@ -1427,6 +1427,18 @@ const availableCourses = [
         room: "14",
         color: "#d35400"
     },
+    {
+        id: 120,
+        code: "فيزياء2",
+        name: "فيزياء 2",
+        type: "theory",
+        credits: 3,
+        instructor: "د. روز محمد",
+        day: "الثلاثاء",
+        time: "09:40 - 11:20",
+        room: "ش5",
+        color: "#d35400"
+    },
 ];
 
 // المتغيرات العامة
@@ -2191,5 +2203,6 @@ function showAlert(title, message, type = 'warning') {
 
 // تهيئة التطبيق عند تحميل الصفحة
 document.addEventListener('DOMContentLoaded', initApp);
+
 
 
