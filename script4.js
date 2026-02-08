@@ -677,7 +677,7 @@ const availableCourses = [
         name: "الدارات الكهربائية 1",
         type: "theory",
         credits: 3,
-        instructor: "د. هبة الله الخضور ",
+        instructor: "د.حسان أحمد ",
         day: "الثلاثاء",
         time: "11:20 - 13:00",
         room: "ش 5",
@@ -689,7 +689,7 @@ const availableCourses = [
         name: "الدارات الكهربائية 1",
         type: "theory",
         credits: 3,
-        instructor: "د. هبة الله الخضور ",
+        instructor: "د.حسان أحمد ",
         day: "الثلاثاء",
         time: "13:00 - 14:40",
         room: "ش 6",
@@ -2203,6 +2203,7 @@ function showAlert(title, message, type = 'warning') {
 
 // تهيئة التطبيق عند تحميل الصفحة
 document.addEventListener('DOMContentLoaded', initApp);
+
 
 
 
