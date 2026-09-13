@@ -4789,8 +4789,8 @@ const availableCourses = [
     },
     {
         "id": 400,
-        "code": "الفيزياء3",
-        "name": "الفيزياء3",
+        "code": "الفيزياء 2 /ش3",
+        "name": "الفيزياء 2 /ش3",
         "type": "theory",
         "credits": 0,
         "instructor": "د. روز محمد",
