@@ -1,4 +1,4 @@
-const courses = [
+const availableCourses = [
   // ================= يوم السبت =================
   {
     id: 1,
