@@ -5669,6 +5669,7 @@ const availableCourses = [
 // ==================== المتغيرات ====================
 let registeredCourses = [];
 let compactMode = localStorage.getItem('spu_compact') === 'true';
+const STORAGE_KEY = 'spu_registered_courses_v1';
 const DAYS = ["السبت", "الأحد", "الاثنين", "الثلاثاء"];
 
 const timeSlots = [
@@ -6006,12 +6007,39 @@ function getSelectedDays() {
     return Array.from(chips).map(c => c.dataset.day);
 }
 
+// ==================== حفظ/استرجاع المواد المسجلة ====================
+function saveRegisteredToStorage() {
+    try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(registeredCourses));
+    } catch (e) {
+        console.warn('تعذّر الحفظ في localStorage', e);
+    }
+}
+
+function loadRegisteredFromStorage() {
+    try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return;
+        
+        const parsed = JSON.parse(raw);
+        if (!Array.isArray(parsed)) return;
+        
+        // تحقق أن كل مادة ما زالت موجودة في المواد المتاحة (لتجنب المواد المحذوفة)
+        const availableIds = new Set(availableCourses.map(c => c.id));
+        registeredCourses = parsed.filter(c => c && availableIds.has(c.id));
+    } catch (e) {
+        console.warn('تعذّر استرجاع المواد', e);
+        registeredCourses = [];
+    }
+}
+
 // ==================== التهيئة ====================
 function initApp() {
     initTheme();
     initTabs();
     initScrollSpy();
     setupDaysFilter();
+    loadRegisteredFromStorage();
     displayAvailableCourses();
     displayRegisteredCourses();
     displayTimetable();
@@ -6137,12 +6165,14 @@ function registerCourse(courseId) {
     }
     
     registeredCourses.push({ ...course });
+    saveRegisteredToStorage();
     updateAllDisplays();
     showAlert('تم التسجيل', `تم تسجيل <strong>${course.name}</strong> بنجاح`, 'success');
 }
 
 function unregisterCourse(courseId) {
     registeredCourses = registeredCourses.filter(c => c.id !== courseId);
+    saveRegisteredToStorage();
     updateAllDisplays();
 }
 
@@ -6378,6 +6408,7 @@ function clearAll() {
     if (registeredCourses.length === 0) return;
     if (confirm('هل أنت متأكد من مسح جميع المواد المسجلة؟')) {
         registeredCourses = [];
+        saveRegisteredToStorage();
         updateAllDisplays();
         showAlert('تم المسح', 'تم مسح جميع المواد', 'info');
     }
