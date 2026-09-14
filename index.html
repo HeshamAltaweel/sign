@@ -2,148 +2,215 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>نظام تسجيل المواد - الجامعة السورية الخاصة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0a0e1a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>نظام تسجيل المواد - SPU</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script defer src="/_vercel/insights/script.js"></script>
     <script>
     window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
 </head>
 <body>
-    <div class="container">
-        <!-- العنوان الرئيسي -->
-        <header>
-            <div class="university-header">
-                <img src="spu.png" alt="شعار الجامعة" class="logo">
-                <div>
-                    <h1><i class="fas fa-university"></i> نظام تسجيل المواد</h1>
-                    <h2>الجامعة السورية الخاصة - كلية هندسة الذكاء الاصطناعي</h2>
-                    <p class="semester">coded by Hesham</p>
+    <!-- شريط علوي ثابت -->
+    <header class="app-header">
+        <div class="header-inner">
+            <div class="brand">
+                <div class="brand-logo">
+                    <img src="spu.png" alt="SPU" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\'fas fa-university\'></i>'">
+                </div>
+                <div class="brand-text">
+                    <h1>نظام التسجيل</h1>
+                    <span>جامعة SPU — هندسة AI</span>
                 </div>
             </div>
-        </header>
-
-        <div class="main-content">
-            <!-- القائمة الجانبية -->
-            <aside class="sidebar">
-                <div class="user-info">
-                    <div class="avatar">
-                        <i class="fas fa-user-graduate"></i>
-                    </div>
-                    <h3>الطالب: [اسمك]</h3>
-                    <p>رقم القيد: [رقمك]</p>
-                    <div class="stats">
-                        <div class="stat">
-                            <span class="stat-value" id="total-hours">0</span>
-                            <span class="stat-label">ساعة معتمدة</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-value" id="total-courses">0</span>
-                            <span class="stat-label">مادة مسجلة</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="filters">
-                    <h3><i class="fas fa-filter"></i> تصفية المواد</h3>
-                    <input type="text" id="search" placeholder="🔍 ابحث عن مادة...">
-                    
-                    <div class="filter-group">
-                        <label><input type="checkbox" id="filter-theory" checked> نظري</label>
-                        <label><input type="checkbox" id="filter-lab" checked> عملي</label>
-                    </div>
-                    
-                    <div class="filter-group">
-                        <label><input type="checkbox" id="filter-monday" checked> الإثنين</label>
-                        <label><input type="checkbox" id="filter-tuesday" checked> الثلاثاء</label>
-                        <label><input type="checkbox" id="filter-wednesday" checked> الأربعاء</label>
-                        <label><input type="checkbox" id="filter-thursday" checked> الخميس</label>
-                        <label><input type="checkbox" id="filter-friday" checked> الجمعة</label>
-                    </div>
-                </div>
-
-                <div class="instructions">
-                    <h3><i class="fas fa-info-circle"></i> تعليمات</h3>
-                    <ul>
-                        <li>انقر على مادة لإضافتها لجدولك</li>
-                        <li>اللون الأحمر يعني تداخل في الوقت</li>
-                        <li>الحد الأقصى: 18 ساعة معتمدة</li>
-                        <li>انقر على المادة المسجلة لحذفها</li>
-                    </ul>
-                </div>
-            </aside>
-
-            <!-- المحتوى الرئيسي -->
-            <main class="content">
-                <!-- قسم المواد المتاحة -->
-                <section class="available-courses">
-                    <h2><i class="fas fa-book-open"></i> المواد المتاحة للتسجيل</h2>
-                    <div class="courses-list" id="available-courses">
-                        <!-- المواد ستضاف هنا بالجافاسكريبت -->
-                    </div>
-                </section>
-
-                <!-- قسم الجدول الأسبوعي -->
-                <section class="timetable-section">
-                    <h2><i class="fas fa-calendar-alt"></i> جدولك الأسبوعي</h2>
-                    <div class="timetable">
-                        <div class="timetable-header">
-                            <div class="time-slot">الوقت</div>
-                            <div class="day">الإثنين</div>
-                            <div class="day">الثلاثاء</div>
-                            <div class="day">الأربعاء</div>
-                            <div class="day">الخميس</div>
-                            <div class="day">الجمعة</div>
-                        </div>
-                        <div class="timetable-body" id="timetable-body">
-                            <!-- الجدول سيتم ملؤه بالجافاسكريبت -->
-                        </div>
-                    </div>
-                </section>
-
-                <!-- قسم المواد المسجلة -->
-                <section class="registered-courses">
-                    <h2><i class="fas fa-clipboard-list"></i> المواد المسجلة</h2>
-                    <div class="courses-list" id="registered-courses">
-                        <!-- المواد المسجلة ستظهر هنا -->
-                    </div>
-                    <div class="actions">
-                        <button id="save-btn" class="btn-primary">
-                            <i class="fas fa-save"></i> حفظ التسجيل
-                        </button>
-                        <button id="clear-btn" class="btn-secondary">
-                            <i class="fas fa-trash"></i> مسح الكل
-                        </button>
-                        <button id="print-btn" class="btn-secondary">
-                            <i class="fas fa-print"></i> طباعة الجدول
-                        </button>
-                    </div>
-                </section>
-            </main>
+            <button id="theme-toggle" class="icon-btn" title="تبديل الوضع">
+                <i class="fas fa-moon"></i>
+            </button>
         </div>
+        
+        <!-- شريط التنقل السريع (Scroll-Spy) -->
+        <nav class="tabs-bar" role="tablist">
+            <button class="tab active" data-scroll="section-available" role="tab">
+                <i class="fas fa-book-open"></i>
+                <span>المواد</span>
+                <span class="tab-badge" id="badge-available">0</span>
+            </button>
+            <button class="tab" data-scroll="section-timetable" role="tab">
+                <i class="fas fa-calendar-alt"></i>
+                <span>الجدول</span>
+            </button>
+            <button class="tab" data-scroll="section-registered" role="tab">
+                <i class="fas fa-clipboard-check"></i>
+                <span>المسجلة</span>
+                <span class="tab-badge" id="badge-registered">0</span>
+            </button>
+            <button class="tab" data-scroll="section-stats" role="tab">
+                <i class="fas fa-chart-simple"></i>
+                <span>الإحصائيات</span>
+            </button>
+        </nav>
+    </header>
 
-        <!-- نافذة التنبيه -->
-        <div id="alert-modal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h3 id="alert-title"></h3>
-                <p id="alert-message"></p>
-                <button id="alert-ok" class="btn-primary">موافق</button>
+    <!-- المحتوى — كل الأقسام في صفحة واحدة -->
+    <main class="app-main">
+        
+        <!-- قسم المواد المتاحة -->
+        <section class="content-section" id="section-available" data-section="available">
+            <div class="section-head">
+                <h2><i class="fas fa-book-open"></i> المواد المتاحة</h2>
+                <span class="count-pill" id="available-pill">0 مادة</span>
             </div>
+            
+            <div class="search-section">
+                <div class="search-wrapper">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="search" placeholder="ابحث عن مادة، دكتور، رمز..." autocomplete="off" inputmode="search">
+                    <button id="clear-search" class="clear-search" title="مسح">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <button id="toggle-filters" class="filters-toggle">
+                    <i class="fas fa-sliders-h"></i>
+                    <span>الفلاتر</span>
+                    <i class="fas fa-chevron-down chevron"></i>
+                </button>
+            </div>
+            
+            <!-- لوحة الفلاتر المنزلقة -->
+            <div class="filters-panel" id="filters-panel">
+                <div class="filter-row">
+                    <span class="filter-label">النوع:</span>
+                    <div class="chip-group">
+                        <button class="chip active" data-filter="theory">
+                            <i class="fas fa-chalkboard-teacher"></i> نظري
+                        </button>
+                        <button class="chip active" data-filter="lab">
+                            <i class="fas fa-flask"></i> عملي
+                        </button>
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <span class="filter-label">الأيام:</span>
+                    <div class="chip-group" id="days-filter"></div>
+                </div>
+            </div>
+            
+            <div class="courses-grid" id="available-courses"></div>
+        </section>
+
+        <!-- قسم الجدول -->
+        <section class="content-section" id="section-timetable" data-section="timetable">
+            <div class="section-head">
+                <h2><i class="fas fa-calendar-alt"></i> جدولك الأسبوعي</h2>
+                <span class="hint"><i class="fas fa-arrows-left-right"></i> اسحب أفقياً</span>
+            </div>
+            <div class="timetable-scroll">
+                <div class="timetable">
+                    <div class="timetable-header" id="timetable-header"></div>
+                    <div class="timetable-body" id="timetable-body"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم المواد المسجلة -->
+        <section class="content-section" id="section-registered" data-section="registered">
+            <div class="section-head">
+                <h2><i class="fas fa-clipboard-check"></i> المواد المسجلة</h2>
+                <span class="count-pill" id="registered-pill">0 مادة</span>
+            </div>
+            <div class="courses-grid" id="registered-courses"></div>
+            
+            <div class="actions-fab-group">
+                <button id="save-btn" class="fab fab-primary" title="حفظ التسجيل">
+                    <i class="fas fa-save"></i>
+                    <span>حفظ</span>
+                </button>
+                <button id="print-btn" class="fab fab-secondary" title="طباعة">
+                    <i class="fas fa-print"></i>
+                    <span>طباعة</span>
+                </button>
+                <button id="clear-btn" class="fab fab-danger" title="مسح الكل">
+                    <i class="fas fa-trash"></i>
+                    <span>مسح</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- قسم الإحصائيات -->
+        <section class="content-section" id="section-stats" data-section="stats">
+            <div class="section-head">
+                <h2><i class="fas fa-chart-simple"></i> ملخص التسجيل</h2>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-card stat-primary">
+                    <div class="stat-icon"><i class="fas fa-book"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-num" id="stat-courses">0</span>
+                        <span class="stat-title">مادة مسجلة</span>
+                    </div>
+                </div>
+                
+                <div class="stat-card stat-success">
+                    <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-num" id="stat-hours">0</span>
+                        <span class="stat-title">ساعة معتمدة</span>
+                    </div>
+                </div>
+                
+                <div class="stat-card stat-warning">
+                    <div class="stat-icon"><i class="fas fa-calendar-week"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-num" id="stat-days">0</span>
+                        <span class="stat-title">أيام دراسية</span>
+                    </div>
+                </div>
+                
+                <div class="stat-card stat-info">
+                    <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-num" id="stat-theory">0</span>
+                        <span class="stat-title">مادة نظرية</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="breakdown-section" id="breakdown"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <p>&copy; <span id="year"></span> — Created by <a href="https://www.instagram.com/_hs.m_" target="_blank">Hesham</a></p>
+    </footer>
+
+    <!-- نافذة التنبيه -->
+    <div id="alert-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-icon" id="alert-icon">
+                <i class="fas fa-exclamation-triangle"></i>
+            </div>
+            <h3 id="alert-title"></h3>
+            <p id="alert-message"></p>
+            <button id="alert-ok" class="btn-primary">حسناً</button>
         </div>
     </div>
 
-            <!-- Page Footer -->
-        <footer class="footer mt-5 py-4">
-            <p class="footer-text mb-0 small">&copy; <script>document.write(new Date().getFullYear())</script>, Created By <a href="https://www.instagram.com/_hs.m_" target="_blank">Hesham.</a> All rights reserved </p>     
-        </footer>        
-        <!-- End of Page Footer -->  
-
+    <!-- زر العودة للأعلى -->
+    <button id="scroll-top" class="scroll-top" title="للأعلى">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="script4.js"></script>
 </body>
-
 </html>
-
