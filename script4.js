@@ -1,3 +1,4 @@
+// ==================== بيانات المواد ====================
 const availableCourses = [
     {
         "id": 1,
@@ -181,11 +182,11 @@ const availableCourses = [
     },
     {
         "id": 16,
-        "code": "البرمجة بلغة إن/",
-        "name": "البرمجة بلغة إن/",
+        "code": "البرمجة بلغة بايثون/ش1",
+        "name": "البرمجة بلغة بايثون/ش1",
         "type": "theory",
         "credits": 0,
-        "instructor": "د. وسام النبي",
+        "instructor": "د. وسام النبكي",
         "day": "السبت",
         "time": "08:00 - 09:40",
         "room": "AI-05",
@@ -197,7 +198,7 @@ const availableCourses = [
         "name": "البرمجة بلغة بايثون/ش2",
         "type": "theory",
         "credits": 0,
-        "instructor": "د. وسام النبي",
+        "instructor": "د. وسام النبكي",
         "day": "السبت",
         "time": "09:40 - 11:20",
         "room": "AI-05",
@@ -209,7 +210,7 @@ const availableCourses = [
         "name": "البرمجة بلغة بايثون/ش3",
         "type": "theory",
         "credits": 0,
-        "instructor": "د. وسام النبي",
+        "instructor": "د. وسام النبكي",
         "day": "السبت",
         "time": "11:20 - 13:00",
         "room": "AI-05",
@@ -949,8 +950,8 @@ const availableCourses = [
     },
     {
         "id": 80,
-        "code": "مدخل ! الذكاء الاصطناعي/عملي ف22 د اة صالح/م. رفاه سنجقدار",
-        "name": "مدخل ! الذكاء الاصطناعي/عملي ف22 د اة صالح/م. رفاه سنجقدار",
+        "code": "مدخل إلى الذكاء الاصطناعي/عملي ف22 د اة صالح/م. رفاه سنجقدار",
+        "name": "مدخل إلى الذكاء الاصطناعي/عملي ف22 د اة صالح/م. رفاه سنجقدار",
         "type": "lab",
         "credits": 0,
         "instructor": "د.فتاة صالح / م.رفاه سنجقدار",
@@ -961,8 +962,8 @@ const availableCourses = [
     },
     {
         "id": 81,
-        "code": "الإرمجة بلغة بايثون/ عملي ف11",
-        "name": "الإرمجة بلغة بايثون/ عملي ف11",
+        "code": "البرمجة بلغة بايثون/ عملي ف11",
+        "name": "البرمجة بلغة بايثون/ عملي ف11",
         "type": "lab",
         "credits": 0,
         "instructor": "م. إسراء سهلي / م. تقى الزعبي",
@@ -1369,11 +1370,11 @@ const availableCourses = [
     },
     {
         "id": 115,
-        "code": "بنيان الحواسيب1/عملي ف11 الله الخضور/ م. محسن سكر",
-        "name": "بنيان الحواسيب1/عملي ف11 الله الخضور/ م. محسن سكر",
+        "code": "بنيان الحواسيب1/عملي ف11 د. هبة الله الخضور/ م. محسن سكر",
+        "name": "بنيان الحواسيب1/عملي ف11 د. هبة الله الخضور/ م. محسن سكر",
         "type": "lab",
         "credits": 0,
-        "instructor": "د.هبة هللا الخضور / م.محسن سكر",
+        "instructor": "د. هبة الله الخضور / م.محسن سكر",
         "day": "السبت",
         "time": "08:00 - 09:40",
         "room": "AI-L-CA",
@@ -1385,7 +1386,7 @@ const availableCourses = [
         "name": "بنيان الحواسيب1/عملي ف21",
         "type": "lab",
         "credits": 0,
-        "instructor": "د.هبة هللا الخضور / م.محسن سكر بنيان الحواسيب1 / عملي ف12",
+        "instructor": "د. هبة الله الخضور / م.محسن سكر بنيان الحواسيب1 / عملي ف12",
         "day": "السبت",
         "time": "09:40 - 11:20",
         "room": "AI-L-CA",
@@ -1397,7 +1398,7 @@ const availableCourses = [
         "name": "بنيان الحواسيب1/عملي ف12",
         "type": "lab",
         "credits": 0,
-        "instructor": "د.هبة هللا الخضور / م.محسن سكر",
+        "instructor": "د. هبة الله الخضور / م.محسن سكر",
         "day": "السبت",
         "time": "11:20 - 13:00",
         "room": "AI-L-CA",
@@ -1405,11 +1406,11 @@ const availableCourses = [
     },
     {
         "id": 118,
-        "code": "بنيان الحواسيب1/عملي ف22 لله الخضور/ م. محسن سكر",
-        "name": "بنيان الحواسيب1/عملي ف22 لله الخضور/ م. محسن سكر",
+        "code": "بنيان الحواسيب1/عملي ف22 د. هبة الله الخضور/ م. محسن سكر",
+        "name": "بنيان الحواسيب1/عملي ف22 د. هبة الله الخضور/ م. محسن سكر",
         "type": "lab",
         "credits": 0,
-        "instructor": "د.هبة هللا الخضور / م.محسن سكر",
+        "instructor": "د. هبة الله الخضور / م.محسن سكر",
         "day": "السبت",
         "time": "13:00 - 14:40",
         "room": "AI-L-CA",
@@ -1489,8 +1490,8 @@ const availableCourses = [
     },
     {
         "id": 125,
-        "code": "هندسة البره ات المتقدمة",
-        "name": "هندسة البره ات المتقدمة",
+        "code": "هندسة البرمجيات المتقدمة",
+        "name": "هندسة البرمجيات المتقدمة",
         "type": "theory",
         "credits": 0,
         "instructor": "د. أكرم مسوح",
@@ -1553,7 +1554,7 @@ const availableCourses = [
         "name": "معالجة اللغات الطبيعية",
         "type": "theory",
         "credits": 0,
-        "instructor": "د. وسام النبيي",
+        "instructor": "د. وسام النبكيي",
         "day": "الأحد",
         "time": "08:00 - 09:40",
         "room": "AI-03",
@@ -1565,7 +1566,7 @@ const availableCourses = [
         "name": "البرمجة بلغة بايثون/ش4",
         "type": "theory",
         "credits": 0,
-        "instructor": "د. وسام النبي",
+        "instructor": "د. وسام النبكي",
         "day": "الأحد",
         "time": "09:40 - 11:20",
         "room": "AI-03",
@@ -1577,7 +1578,7 @@ const availableCourses = [
         "name": "البرمجة بلغة بايثون/ش5",
         "type": "theory",
         "credits": 0,
-        "instructor": "د. وسام النبي",
+        "instructor": "د. وسام النبكي",
         "day": "الأحد",
         "time": "11:20 - 13:00",
         "room": "AI-03",
@@ -1645,8 +1646,8 @@ const availableCourses = [
     },
     {
         "id": 138,
-        "code": "مدخل إلى الذكاء",
-        "name": "مدخل إلى الذكاء",
+        "code": "مدخل إلى الذكاء الصنعي/ش2",
+        "name": "مدخل إلى الذكاء الصنعي/ش2",
         "type": "theory",
         "credits": 0,
         "instructor": "د. فتاة صالح",
@@ -2089,8 +2090,8 @@ const availableCourses = [
     },
     {
         "id": 175,
-        "code": "نظم از الحقيقي/عملي",
-        "name": "نظم از الحقيقي/عملي",
+        "code": "نظم الزمن الحقيقي/عملي",
+        "name": "نظم الزمن الحقيقي/عملي",
         "type": "lab",
         "credits": 0,
         "instructor": "م. يزن أب رافع",
@@ -2377,8 +2378,8 @@ const availableCourses = [
     },
     {
         "id": 199,
-        "code": "مدخل إلى ات والبرمجة/عملي ف13",
-        "name": "مدخل إلى ات والبرمجة/عملي ف13",
+        "code": "مدخل إلى الخوارزميات والبرمجة/عملي ف13",
+        "name": "مدخل إلى الخوارزميات والبرمجة/عملي ف13",
         "type": "lab",
         "credits": 0,
         "instructor": "م. محمد عثمان / م.عبد الرحمن عرار",
@@ -2705,7 +2706,7 @@ const availableCourses = [
         "name": "البرمجة بلغة بايثون/ عملي ف23",
         "type": "lab",
         "credits": 0,
-        "instructor": "د. آصف جعفر / م.الحسير ر طفيلية التر مجة بلغة بايثون / عملي ف14",
+        "instructor": "د. آصف جعفر / م. الحسين طفيلية / عملي ف14",
         "day": "الأحد",
         "time": "09:40 - 11:20",
         "room": "M-L07",
@@ -2765,7 +2766,7 @@ const availableCourses = [
         "name": "الدارات المنطقية/عملي ف12",
         "type": "lab",
         "credits": 0,
-        "instructor": "م.لجير ر أسعد",
+        "instructor": "م.لجين أسعد",
         "day": "الأحد",
         "time": "11:20 - 13:00",
         "room": "AI-L-ELC",
@@ -2777,7 +2778,7 @@ const availableCourses = [
         "name": "الدارات المنطقية/عملي ف22",
         "type": "lab",
         "credits": 0,
-        "instructor": "م.لجير ر أسعد",
+        "instructor": "م.لجين أسعد",
         "day": "الأحد",
         "time": "13:00 - 14:40",
         "room": "AI-L-ELC",
@@ -2785,8 +2786,8 @@ const availableCourses = [
     },
     {
         "id": 233,
-        "code": "مدخل إلى اإللكتر ونيات/عملي ف1",
-        "name": "مدخل إلى اإللكتر ونيات/عملي ف1",
+        "code": "مدخل إلى الإلكترونيات/عملي ف1",
+        "name": "مدخل إلى الإلكترونيات/عملي ف1",
         "type": "lab",
         "credits": 0,
         "instructor": "م. عدي عباس",
@@ -2797,8 +2798,8 @@ const availableCourses = [
     },
     {
         "id": 234,
-        "code": "الدارات اإللكتر ونية1 /عملي ف2",
-        "name": "الدارات اإللكتر ونية1 /عملي ف2",
+        "code": "الدارات الإلكترونية1/عملي ف2",
+        "name": "الدارات الإلكترونية1/عملي ف2",
         "type": "lab",
         "credits": 0,
         "instructor": "م. عدي عباس",
@@ -2825,7 +2826,7 @@ const availableCourses = [
         "name": "بنيان الحواسيب1 /عملي ف13",
         "type": "lab",
         "credits": 0,
-        "instructor": "د.هبة هللا الخضور / م.محسن سكر",
+        "instructor": "د. هبة الله الخضور / م.محسن سكر",
         "day": "الأحد",
         "time": "08:00 - 09:40",
         "room": "AI-L-CA",
@@ -2837,7 +2838,7 @@ const availableCourses = [
         "name": "بنيان الحواسيب1 /عملي ف23",
         "type": "lab",
         "credits": 0,
-        "instructor": "د.هبة هللا الخضور / م.محسن سكر",
+        "instructor": "د. هبة الله الخضور / م.محسن سكر",
         "day": "الأحد",
         "time": "09:40 - 11:20",
         "room": "AI-L-CA",
@@ -2885,7 +2886,7 @@ const availableCourses = [
         "name": "المتحكمات الصغرية والنظم المضمنة/عملي ف2",
         "type": "lab",
         "credits": 0,
-        "instructor": "م. شادي صعب / م.الحسير ر طفيلية",
+        "instructor": "م. شادي صعب / م. الحسين طفيلية",
         "day": "الأحد",
         "time": "13:00 - 14:40",
         "room": "AI-L-ROB",
@@ -2977,8 +2978,8 @@ const availableCourses = [
     },
     {
         "id": 249,
-        "code": "توثيق بنر البرمجيات",
-        "name": "توثيق بنر البرمجيات",
+        "code": "توثيق بنى البرمجيات",
+        "name": "توثيق بنى البرمجيات",
         "type": "theory",
         "credits": 0,
         "instructor": "د. أكرم مسوح",
@@ -3533,7 +3534,7 @@ const availableCourses = [
         "name": "البرمجة2/ش1",
         "type": "theory",
         "credits": 0,
-        "instructor": "م. رانية ربجب",
+        "instructor": "م. رانية رجب",
         "day": "الاثنين",
         "time": "08:00 - 09:40",
         "room": "AI-16",
@@ -3545,7 +3546,7 @@ const availableCourses = [
         "name": "البرمجة 2 /ش 2",
         "type": "theory",
         "credits": 0,
-        "instructor": "م. رانية ربجب",
+        "instructor": "م. رانية رجب",
         "day": "الاثنين",
         "time": "09:40 - 11:20",
         "room": "AI-16",
@@ -3721,8 +3722,8 @@ const availableCourses = [
     },
     {
         "id": 311,
-        "code": "ل النظم الموزعة والحوسبة السحابية/عملي ف22",
-        "name": "ل النظم الموزعة والحوسبة السحابية/عملي ف22",
+        "code": "النظم الموزعة والحوسبة السحابية/عملي ف22",
+        "name": "النظم الموزعة والحوسبة السحابية/عملي ف22",
         "type": "lab",
         "credits": 0,
         "instructor": "م. بشار خدوج / م. فواز عفاش",
@@ -3881,7 +3882,7 @@ const availableCourses = [
         "name": "شبكات الحاسوب/عملي ف13",
         "type": "lab",
         "credits": 0,
-        "instructor": "م. محمد عثمان / م. موفق العضز",
+        "instructor": "م. محمد عثمان / م. موفق العضل",
         "day": "الاثنين",
         "time": "08:00 - 09:40",
         "room": "AI-L-C5",
@@ -3973,8 +3974,8 @@ const availableCourses = [
     },
     {
         "id": 332,
-        "code": "كشف التطفل وإدارة /عملي ف11",
-        "name": "كشف التطفل وإدارة /عملي ف11",
+        "code": "كشف التطفل وإدارة الاختراقات/عملي ف11",
+        "name": "كشف التطفل وإدارة الاختراقات/عملي ف11",
         "type": "lab",
         "credits": 0,
         "instructor": "م. محمد يامن الحالق / م.نغم أشقر",
@@ -3989,7 +3990,7 @@ const availableCourses = [
         "name": "كشف التطفل وإدارة الإختراقات/عملي ف21",
         "type": "lab",
         "credits": 0,
-        "instructor": "م. محمد يامن الحالق / م.نغم األشقر",
+        "instructor": "م. محمد يامن الحالق / م. نغم الأشقر",
         "day": "الاثنين",
         "time": "09:40 - 11:20",
         "room": "AI-L-SEC",
@@ -4181,7 +4182,7 @@ const availableCourses = [
         "name": "بنيان الحواسيب1/عملي ف14",
         "type": "lab",
         "credits": 0,
-        "instructor": "د.هبة هللا الخضور / م.محسن سكر",
+        "instructor": "د. هبة الله الخضور / م.محسن سكر",
         "day": "الاثنين",
         "time": "11:20 - 13:00",
         "room": "AI-L-CA",
@@ -4189,11 +4190,11 @@ const availableCourses = [
     },
     {
         "id": 350,
-        "code": "بنيان الحواسيب1/عملي ف24 لله الخضور/ م. محسن سكر",
-        "name": "بنيان الحواسيب1/عملي ف24 لله الخضور/ م. محسن سكر",
+        "code": "بنيان الحواسيب1/عملي ف24",
+        "name": "بنيان الحواسيب1/عملي ف24",
         "type": "lab",
         "credits": 0,
-        "instructor": "د.هبة هللا الخضور / م.محسن سكر",
+        "instructor": "د. هبة الله الخضور / م.محسن سكر",
         "day": "الاثنين",
         "time": "13:00 - 14:40",
         "room": "AI-L-CA",
@@ -4577,7 +4578,7 @@ const availableCourses = [
         "name": "ضمان جودة البرمجيات",
         "type": "theory",
         "credits": 0,
-        "instructor": "م. رانية ربجب",
+        "instructor": "م. رانية رجب",
         "day": "الثلاثاء",
         "time": "08:00 - 10:30",
         "room": "AI-07",
@@ -4661,7 +4662,7 @@ const availableCourses = [
         "name": "الرياضيات المتقطعة/ ش4",
         "type": "theory",
         "credits": 0,
-        "instructor": "د.يحنر قطيش",
+        "instructor": "د.يحيى قطيش",
         "day": "الثلاثاء",
         "time": "10:30 - 13:00",
         "room": "AI-09",
@@ -4673,7 +4674,7 @@ const availableCourses = [
         "name": "الرياضيات المتقطعة/ ش2",
         "type": "theory",
         "credits": 0,
-        "instructor": "د.يحنر قطيش",
+        "instructor": "د.يحيى قطيش",
         "day": "الثلاثاء",
         "time": "13:00 - 15:30",
         "room": "AI-09",
@@ -4765,11 +4766,11 @@ const availableCourses = [
     },
     {
         "id": 398,
-        "code": "بنيان الحواسيب1/ش4 الله الخضور",
-        "name": "بنيان الحواسيب1/ش4 الله الخضور",
+        "code": "بنيان الحواسيب1/ش4",
+        "name": "بنيان الحواسيب1/ش4",
         "type": "theory",
         "credits": 0,
-        "instructor": "د.هبة هللا الخضور",
+        "instructor": "د. هبة الله الخضور",
         "day": "الثلاثاء",
         "time": "09:40 - 11:20",
         "room": "AI-12",
@@ -4805,7 +4806,7 @@ const availableCourses = [
         "name": "معالجة الإشارة",
         "type": "theory",
         "credits": 0,
-        "instructor": "د. حسان أحم",
+        "instructor": "د. حسان أحمد",
         "day": "الثلاثاء",
         "time": "08:00 - 09:40",
         "room": "AI-13",
@@ -4813,8 +4814,8 @@ const availableCourses = [
     },
     {
         "id": 402,
-        "code": "الدارات الكهريائية1/ش2",
-        "name": "الدارات الكهريائية1/ش2",
+        "code": "الدارات الكهربائية1/ش2",
+        "name": "الدارات الكهربائية1/ش2",
         "type": "theory",
         "credits": 0,
         "instructor": "د. حسان أحمد",
@@ -4901,7 +4902,7 @@ const availableCourses = [
         "name": "الخوارزميات وبنى المعطيات1 /ش2",
         "type": "theory",
         "credits": 0,
-        "instructor": "د. مضي ركيوان",
+        "instructor": "د. مضر كيوان",
         "day": "الثلاثاء",
         "time": "13:00 - 15:30",
         "room": "AI-15",
@@ -5377,8 +5378,8 @@ const availableCourses = [
     },
     {
         "id": 449,
-        "code": "الاختراق الأخلاق والدفاع عن الأنظمة/عملي",
-        "name": "الاختراق الأخلاق والدفاع عن الأنظمة/عملي",
+        "code": "الاختراق الأخلاقي والدفاع عن الأنظمة/عملي",
+        "name": "الاختراق الأخلاقي والدفاع عن الأنظمة/عملي",
         "type": "lab",
         "credits": 0,
         "instructor": "م. محمد يامن الحالق / م.نغم أشقر",
@@ -5633,7 +5634,7 @@ const availableCourses = [
         "name": "الفيزياء 2/ عملي ف21",
         "type": "lab",
         "credits": 0,
-        "instructor": "أ. عمر يوسة",
+        "instructor": "أ. عمر يوسف",
         "day": "الثلاثاء",
         "time": "09:40 - 11:20",
         "room": "PE-L2",
@@ -5645,7 +5646,7 @@ const availableCourses = [
         "name": "الفيزياء1/عملي ف12",
         "type": "lab",
         "credits": 0,
-        "instructor": "أ. عمر يوسة",
+        "instructor": "أ. عمر يوسف",
         "day": "الثلاثاء",
         "time": "11:20 - 13:00",
         "room": "PE-L2",
@@ -5657,272 +5658,461 @@ const availableCourses = [
         "name": "الفيزياء1/ عملي ف21",
         "type": "lab",
         "credits": 0,
-        "instructor": "أ. عمر يوسة",
+        "instructor": "أ. عمر يوسف",
         "day": "الثلاثاء",
         "time": "13:00 - 14:40",
         "room": "PE-L2",
         "color": "#c9a76b"
     }
 ];
-    
 
-
-
-
-
-// المتغيرات العامة
+// ==================== المتغيرات ====================
 let registeredCourses = [];
-let timeSlots = [
-    "08:00 - 08:50",
-    "08:50 - 09:40", 
-    "09:40 - 10:30",
-    "10:30 - 11:20",
-    "11:20 - 12:10",
-    "12:10 - 13:00",
-    "13:00 - 13:50",
-    "13:50 - 14:40",
-    "14:40 - 15:30",
-    "15:30 - 16:20"
+let compactMode = localStorage.getItem('spu_compact') === 'true';
+const DAYS = ["السبت", "الأحد", "الاثنين", "الثلاثاء"];
+
+const timeSlots = [
+    "08:00 - 08:50", "08:50 - 09:40",
+    "09:40 - 10:30", "10:30 - 11:20",
+    "11:20 - 12:10", "12:10 - 13:00",
+    "13:00 - 13:50", "13:50 - 14:40",
+    "14:40 - 15:30", "15:30 - 16:20"
 ];
 
-// تحويل وقت النص إلى دقائق من بداية اليوم
+// ==================== الوضع الليلي ====================
+function initTheme() {
+    const saved = localStorage.getItem('spu_theme') || 
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', saved);
+    updateThemeIcon(saved);
+}
+
+function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('spu_theme', next);
+    updateThemeIcon(next);
+}
+
+function updateThemeIcon(theme) {
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+        btn.innerHTML = theme === 'dark'
+            ? '<i class="fas fa-sun"></i>'
+            : '<i class="fas fa-moon"></i>';
+    }
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = theme === 'dark' ? '#0a0e1a' : '#f4f6fb';
+}
+
+// ==================== البحث الذكي (نسخة نظيفة وموثوقة) ====================
+
+/**
+ * تطبيع النص العربي — توحيد كل الاختلافات الإملائية
+ */
+function normalizeText(text) {
+    if (!text) return '';
+    return String(text)
+        .trim()
+        .toLowerCase()
+        .replace(/[\u064B-\u065F\u0670]/g, '')
+        .replace(/[أإآٱ]/g, 'ا')
+        .replace(/ى/g, 'ي')
+        .replace(/ة/g, 'ه')
+        .replace(/ؤ/g, 'و')
+        .replace(/ئ/g, 'ي')
+        .replace(/[^\u0600-\u06FF0-9a-z\s]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+/**
+ * حذف كل المسافات — للمقارنة الملتصقة
+ */
+function squash(text) {
+    return text.replace(/\s+/g, '');
+}
+
+/**
+ * مسافة Levenshtein
+ */
+function editDistance(a, b) {
+    if (a === b) return 0;
+    if (!a.length) return b.length;
+    if (!b.length) return a.length;
+    
+    let prev = Array.from({ length: a.length + 1 }, (_, i) => i);
+    let curr = new Array(a.length + 1);
+    
+    for (let i = 1; i <= b.length; i++) {
+        curr[0] = i;
+        for (let j = 1; j <= a.length; j++) {
+            const cost = a[j - 1] === b[i - 1] ? 0 : 1;
+            curr[j] = Math.min(
+                prev[j] + 1,
+                curr[j - 1] + 1,
+                prev[j - 1] + cost
+            );
+        }
+        [prev, curr] = [curr, prev];
+    }
+    
+    return prev[a.length];
+}
+
+/**
+ * ⭐ الدالة الأساسية للبحث
+ */
+function courseMatches(course, searchTerm) {
+    if (!searchTerm || !searchTerm.trim()) return true;
+    
+    const query = normalizeText(searchTerm);
+    if (!query) return true;
+    
+    const fields = [
+        { raw: course.code || '' },
+        { raw: course.name || '' },
+        { raw: course.instructor || '' },
+        { raw: course.room || '' }
+    ].map(f => ({
+        normalized: normalizeText(f.raw),
+        squashed: squash(normalizeText(f.raw))
+    }));
+    
+    // ───── المستوى 1: مطابقة النص الكامل الملتصق ─────
+    const querySquashed = squash(query);
+    
+    if (querySquashed.length >= 3) {
+        for (const f of fields) {
+            if (!f.squashed) continue;
+            if (f.squashed.includes(querySquashed)) return true;
+            if (f.squashed.startsWith(querySquashed)) return true;
+        }
+    }
+    
+    // ───── المستوى 2: مطابقة كلمة بكلمة ─────
+    const queryWords = query.split(' ').filter(w => w.length >= 2);
+    if (queryWords.length === 0) {
+        return fields.some(f => f.normalized.includes(query));
+    }
+    
+    const courseWords = new Set();
+    for (const f of fields) {
+        if (!f.normalized) continue;
+        const words = f.normalized.split(' ').filter(w => w.length >= 2);
+        for (const w of words) courseWords.add(w);
+    }
+    
+    for (const qWord of queryWords) {
+        let matched = false;
+        
+        for (const cWord of courseWords) {
+            // مطابقة تامة
+            if (qWord === cWord) {
+                matched = true;
+                break;
+            }
+            
+            // البادئة
+            if (cWord.startsWith(qWord)) {
+                if (qWord.length >= 3 && qWord.length / cWord.length >= 0.5) {
+                    matched = true;
+                    break;
+                }
+            }
+            
+            // العكس
+            if (qWord.startsWith(cWord)) {
+                if (cWord.length >= 3 && cWord.length / qWord.length >= 0.5) {
+                    matched = true;
+                    break;
+                }
+            }
+            
+            // خطأ إملائي واحد
+            if (qWord.length >= 4 && cWord.length >= 4) {
+                const lenDiff = Math.abs(qWord.length - cWord.length);
+                if (lenDiff <= 1) {
+                    const dist = editDistance(qWord, cWord);
+                    if (dist === 1) {
+                        matched = true;
+                        break;
+                    }
+                }
+            }
+        }
+        
+        if (!matched) return false;
+    }
+    
+    return true;
+}
+
+// ==================== أدوات الوقت ====================
 function timeToMinutes(timeStr) {
     if (!timeStr) return { start: 0, end: 0 };
-    
-    // تنظيف النص وإزالة المسافات الزائدة
-    const cleanTime = timeStr.replace(/\s/g, '');
-    
-    // البحث عن الأوقات في الصيغ المختلفة
-    const timeMatch = cleanTime.match(/(\d{1,2}):(\d{2})\s*[-–]\s*(\d{1,2}):(\d{2})/);
-    if (timeMatch) {
-        const [, startHour, startMin, endHour, endMin] = timeMatch;
-        let start = parseInt(startHour) * 60 + parseInt(startMin);
-        let end = parseInt(endHour) * 60 + parseInt(endMin);
-        
-        // تعديل الأوقات لتتناسب مع النظام الجديد
-        if (endMin === 20) end += 10; // 16:20 تصبح 16:30 للتسهيل
-        if (endMin === 40) end += 10; // 14:40 تصبح 14:50 للتسهيل
-        
-        return { start, end };
-    }
-    
-    // محاولة أخرى بصيغ مختلفة
-    const parts = cleanTime.split(/[-–]/);
-    if (parts.length === 2) {
-        const parsePart = (part) => {
-            const [hour, min] = part.split(':');
-            let result = parseInt(hour || 0) * 60 + parseInt(min || 0);
-            
-            // تعديل الأوقات لتتناسب مع النظام الجديد
-            const minutes = parseInt(min || 0);
-            if (minutes === 20) result += 10; // 16:20 تصبح 16:30
-            if (minutes === 40) result += 10; // 14:40 تصبح 14:50
-            
-            return result;
+    const clean = timeStr.replace(/\s/g, '');
+    const m = clean.match(/(\d{1,2}):(\d{2})[-–](\d{1,2}):(\d{2})/);
+    if (m) {
+        return {
+            start: parseInt(m[1]) * 60 + parseInt(m[2]),
+            end: parseInt(m[3]) * 60 + parseInt(m[4])
         };
-        return { start: parsePart(parts[0]), end: parsePart(parts[1]) };
     }
-    
     return { start: 0, end: 0 };
 }
 
-// دالة مساعدة للحصول على جميع الأوقات الفرعية للمادة
 function getCourseTimeSlots(course) {
-    const courseTime = timeToMinutes(course.time);
-    const slots = [];
-    
-    timeSlots.forEach(slot => {
-        const slotTime = timeToMinutes(slot);
-        // إذا كان وقت الحصة يقع ضمن وقت المادة
-        if (slotTime.start >= courseTime.start && slotTime.end <= courseTime.end) {
-            slots.push(slot);
+    const ct = timeToMinutes(course.time);
+    return timeSlots.filter(slot => {
+        const st = timeToMinutes(slot);
+        return st.start >= ct.start && st.end <= ct.end;
+    });
+}
+
+// ==================== التداخل ====================
+function getConflictCourse(newCourse) {
+    const nt = timeToMinutes(newCourse.time);
+    if (nt.start === 0 && nt.end === 0) return null;
+    return registeredCourses.find(c => {
+        if (c.day !== newCourse.day) return false;
+        if (c.id === newCourse.id) return false;
+        const et = timeToMinutes(c.time);
+        if (et.start === 0 && et.end === 0) return false;
+        return nt.start < et.end && nt.end > et.start;
+    });
+}
+
+// ==================== نظام التنقل بالتمرير (Scroll-Spy) ====================
+let isScrollingProgrammatically = false;
+
+function initTabs() {
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            const targetId = tab.dataset.scroll;
+            const target = document.getElementById(targetId);
+            if (!target) return;
+            
+            setActiveTab(tab.dataset.scroll.replace('section-', ''));
+            
+            isScrollingProgrammatically = true;
+            
+            const headerEl = document.querySelector('.app-header');
+            const headerHeight = headerEl ? headerEl.offsetHeight : 140;
+            const targetTop = target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 10;
+            
+            window.scrollTo({ top: targetTop, behavior: 'smooth' });
+            
+            clearTimeout(window.__scrollEndTimer);
+            window.__scrollEndTimer = setTimeout(() => {
+                isScrollingProgrammatically = false;
+            }, 800);
+        });
+    });
+}
+
+function setActiveTab(sectionName) {
+    document.querySelectorAll('.tab').forEach(t => {
+        const isActive = t.dataset.scroll === `section-${sectionName}`;
+        t.classList.toggle('active', isActive);
+        
+        if (isActive) {
+            t.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
         }
     });
-    
-    return slots;
 }
 
-// التحقق من تداخل الأوقات
-function checkConflict(newCourse) {
-    const newTime = timeToMinutes(newCourse.time);
-    if (newTime.start === 0 && newTime.end === 0) return false;
+function initScrollSpy() {
+    const sections = document.querySelectorAll('.content-section');
+    if (!sections.length) return;
     
-    return registeredCourses.some(course => {
-        // إذا كان اليوم مختلفاً، لا يوجد تداخل
-        if (course.day !== newCourse.day) return false;
+    const handleScroll = debounce(() => {
+        if (isScrollingProgrammatically) return;
         
-        const existingTime = timeToMinutes(course.time);
-        if (existingTime.start === 0 && existingTime.end === 0) return false;
+        const headerEl = document.querySelector('.app-header');
+        const headerHeight = (headerEl ? headerEl.offsetHeight : 140) + 40;
         
-        // التحقق من التداخل
-        const timeConflict = (
-            (newTime.start < existingTime.end && newTime.end > existingTime.start)
-        );
+        let currentSection = null;
+        let closestDistance = Infinity;
         
-        return timeConflict;
+        sections.forEach(section => {
+            const rect = section.getBoundingClientRect();
+            const distance = Math.abs(rect.top - headerHeight);
+            
+            if (rect.top <= headerHeight + 100 && distance < closestDistance) {
+                closestDistance = distance;
+                currentSection = section;
+            }
+        });
+        
+        if (!currentSection && sections.length) {
+            const firstRect = sections[0].getBoundingClientRect();
+            if (firstRect.top >= 0 && firstRect.top < window.innerHeight / 2) {
+                currentSection = sections[0];
+            }
+        }
+        
+        if (currentSection) {
+            setActiveTab(currentSection.dataset.section);
+        }
+    }, 100);
+    
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+}
+
+// ==================== وضع العرض المصغّر ====================
+function applyCompactMode() {
+    const grids = document.querySelectorAll('.courses-grid');
+    grids.forEach(g => g.classList.toggle('compact', compactMode));
+    
+    const btn = document.getElementById('compact-toggle');
+    if (btn) {
+        btn.classList.toggle('active', compactMode);
+        btn.innerHTML = compactMode
+            ? '<i class="fas fa-expand-alt"></i>'
+            : '<i class="fas fa-compress-alt"></i>';
+        btn.title = compactMode ? 'تكبير البطاقات' : 'تصغير البطاقات';
+    }
+}
+
+function toggleCompactMode() {
+    compactMode = !compactMode;
+    localStorage.setItem('spu_compact', compactMode);
+    applyCompactMode();
+}
+
+// ==================== فلتر الأيام ====================
+function setupDaysFilter() {
+    const container = document.getElementById('days-filter');
+    if (!container) return;
+    container.innerHTML = '';
+    DAYS.forEach(day => {
+        const chip = document.createElement('button');
+        chip.className = 'chip active';
+        chip.dataset.day = day;
+        chip.innerHTML = `<i class="fas fa-calendar-day"></i> ${day}`;
+        chip.addEventListener('click', () => {
+            chip.classList.toggle('active');
+            displayAvailableCourses();
+        });
+        container.appendChild(chip);
     });
 }
 
-// الحصول على المادة المتداخلة
-function getConflictCourse(newCourse) {
-    const newTime = timeToMinutes(newCourse.time);
-    if (newTime.start === 0 && newTime.end === 0) return null;
-    
-    return registeredCourses.find(course => {
-        if (course.day !== newCourse.day) return false;
-        
-        const existingTime = timeToMinutes(course.time);
-        if (existingTime.start === 0 && existingTime.end === 0) return false;
-        
-        const timeConflict = (
-            (newTime.start < existingTime.end && newTime.end > existingTime.start)
-        );
-        
-        return timeConflict;
-    });
+function getSelectedDays() {
+    const chips = document.querySelectorAll('#days-filter .chip.active');
+    return Array.from(chips).map(c => c.dataset.day);
 }
 
-// دالة لتهيئة التطبيق
+// ==================== التهيئة ====================
 function initApp() {
-    // أولاً، عدل أيام الفلترات
+    initTheme();
+    initTabs();
+    initScrollSpy();
     setupDaysFilter();
-    
-    // ثم عرض كل شيء
     displayAvailableCourses();
     displayRegisteredCourses();
     displayTimetable();
     updateStats();
+    updateBadges();
     setupEventListeners();
+    applyCompactMode();
+    
+    document.getElementById('year').textContent = new Date().getFullYear();
 }
 
-// إعداد فلتر الأيام (السبت-الثلاثاء فقط)
-function setupDaysFilter() {
-    const daysOrder = ["السبت", "الأحد", "الاثنين", "الثلاثاء"];
-    
-    // إزالة الأيام القديمة
-    const filterGroup = document.querySelector('.filter-group:last-child');
-    filterGroup.innerHTML = '';
-    
-    // إضافة الأيام الجديدة
-    daysOrder.forEach(day => {
-        const label = document.createElement('label');
-        label.innerHTML = `
-            <input type="checkbox" id="filter-${day}" checked> ${day}
-        `;
-        filterGroup.appendChild(label);
-        
-        // إضافة مستمع الحدث
-        document.getElementById(`filter-${day}`).addEventListener('change', displayAvailableCourses);
-    });
-}
-
-// عرض المواد المتاحة
+// ==================== عرض المواد المتاحة ====================
 function displayAvailableCourses() {
     const container = document.getElementById('available-courses');
+    if (!container) return;
     container.innerHTML = '';
     
-    const searchTerm = document.getElementById('search').value.toLowerCase();
-    const showTheory = document.getElementById('filter-theory').checked;
-    const showLab = document.getElementById('filter-lab').checked;
+    const searchTerm = document.getElementById('search')?.value || '';
+    const theoryActive = document.querySelector('.chip[data-filter="theory"]')?.classList.contains('active') ?? true;
+    const labActive = document.querySelector('.chip[data-filter="lab"]')?.classList.contains('active') ?? true;
     const daysFilter = getSelectedDays();
     
-    const filteredCourses = availableCourses.filter(course => {
-        // البحث
-        const matchesSearch = course.name.toLowerCase().includes(searchTerm) || 
-                             course.code.toLowerCase().includes(searchTerm) ||
-                             course.instructor.toLowerCase().includes(searchTerm);
-        
-        // النوع
-        const matchesType = (course.type === 'theory' && showTheory) || 
-                           (course.type === 'lab' && showLab);
-        
-        // اليوم
-        const matchesDay = daysFilter.includes(course.day);
-        
-        // التحقق إذا كانت مسجلة مسبقاً
-        const isRegistered = registeredCourses.some(reg => reg.id === course.id);
-        
-        return matchesSearch && matchesType && matchesDay && !isRegistered;
+    const filtered = availableCourses.filter(c => {
+        if (!courseMatches(c, searchTerm)) return false;
+        if (c.type === 'theory' && !theoryActive) return false;
+        if (c.type === 'lab' && !labActive) return false;
+        if (!daysFilter.includes(c.day)) return false;
+        if (registeredCourses.some(r => r.id === c.id)) return false;
+        return true;
     });
     
-    if (filteredCourses.length === 0) {
-        container.innerHTML = '<p class="no-courses">لا توجد مواد مطابقة للبحث</p>';
+    const clearBtn = document.getElementById('clear-search');
+    if (clearBtn) clearBtn.classList.toggle('visible', searchTerm.trim().length > 0);
+    
+    const badge = document.getElementById('badge-available');
+    if (badge) {
+        badge.textContent = filtered.length;
+        badge.dataset.count = filtered.length;
+    }
+    
+    const pill = document.getElementById('available-pill');
+    if (pill) pill.textContent = `${filtered.length} مادة`;
+    
+    if (filtered.length === 0) {
+        const msg = searchTerm.trim()
+            ? `<strong>لا توجد نتائج</strong>لم يتم العثور على مواد تطابق "${searchTerm}"`
+            : `<strong>لا توجد مواد</strong>جرّب تغيير الفلاتر`;
+        container.innerHTML = `<div class="no-courses">${msg}</div>`;
+        applyCompactMode();
         return;
     }
     
-    filteredCourses.forEach(course => {
-        const card = createCourseCard(course, false);
-        container.appendChild(card);
-    });
+    filtered.forEach(c => container.appendChild(createCourseCard(c, false)));
+    applyCompactMode();
 }
 
-// الحصول على الأيام المختارة في الفلتر
-function getSelectedDays() {
-    const days = ['السبت', 'الأحد', 'الاثنين', 'الثلاثاء'];
-    const selected = [];
-    
-    days.forEach(day => {
-        const checkbox = document.getElementById(`filter-${day}`);
-        if (checkbox && checkbox.checked) {
-            selected.push(day);
-        }
-    });
-    
-    return selected;
-}
-
-// إنشاء بطاقة مادة
+// ==================== بطاقة مادة ====================
 function createCourseCard(course, isRegistered) {
     const card = document.createElement('div');
-    card.className = `course-card ${isRegistered ? 'registered' : ''}`;
+    card.className = 'course-card';
     card.dataset.id = course.id;
     
-    // التحقق من التداخل إذا كانت مسجلة
     if (isRegistered) {
-        const hasConflict = checkConflict(course);
-        if (hasConflict) {
+        card.classList.add('registered');
+        const conflict = getConflictCourse(course);
+        if (conflict) {
             card.classList.add('conflict');
-            const conflictCourse = getConflictCourse(course);
-            if (conflictCourse) {
-                card.title = `متتداخل مع: ${conflictCourse.name} (${conflictCourse.time})`;
-            }
+            card.title = `متداخل مع: ${conflict.name}`;
         }
     }
     
-    // حساب عدد الحصص
-    const courseTime = timeToMinutes(course.time);
-    const duration = courseTime.end - courseTime.start;
-    const numberOfSlots = Math.ceil(duration / 50);
+    const typeLabel = course.type === 'theory' ? 'نظري' : 'عملي';
+    const typeIcon = course.type === 'theory' ? 'fa-chalkboard-teacher' : 'fa-flask';
+    const conflict = isRegistered ? getConflictCourse(course) : null;
     
     card.innerHTML = `
-        <div class="course-code">${course.code}</div>
-        <div class="course-name">${course.name}</div>
-        <div class="course-details">
-            <span class="course-detail">
-                <i class="fas fa-user-tie"></i> ${course.instructor}
-            </span>
-            <span class="course-detail">
-                <i class="fas ${course.type === 'theory' ? 'fa-chalkboard-teacher' : 'fa-flask'}"></i> 
-                ${course.type === 'theory' ? 'نظري' : 'عملي'}
-            </span>
-            <span class="course-detail">
-                <i class="fas fa-clock"></i> ${course.time} (${numberOfSlots} حصة)
-            </span>
-            <span class="course-detail">
-                <i class="fas fa-calendar-day"></i> ${course.day}
-            </span>
-            <span class="course-detail">
-                <i class="fas fa-door-open"></i> ${course.room}
-            </span>
-            <span class="course-detail">
-                <i class="fas fa-credit-card"></i> ${course.credits} ساعة
+        <div class="course-head">
+            <div class="course-title-group">
+                <div class="course-code">
+                    <i class="fas fa-hashtag"></i>${course.code}
+                </div>
+                <div class="course-name">${course.name}</div>
+            </div>
+            <span class="course-type-pill ${course.type}">
+                <i class="fas ${typeIcon}"></i> ${typeLabel}
             </span>
         </div>
+        <div class="course-meta">
+            <span class="meta-item"><i class="fas fa-user-tie"></i> ${course.instructor}</span>
+            <span class="meta-item"><i class="fas fa-clock"></i> ${course.time}</span>
+            <span class="meta-item"><i class="fas fa-calendar-day"></i> ${course.day}</span>
+            <span class="meta-item"><i class="fas fa-door-open"></i> ${course.room}</span>
+        </div>
+        ${conflict ? `<div><span class="conflict-badge"><i class="fas fa-exclamation-triangle"></i> متداخل مع ${conflict.name}</span></div>` : ''}
     `;
     
     card.addEventListener('click', () => {
         if (isRegistered) {
-            unregisterCourse(course.id);
+            if (confirm(`هل تريد إلغاء تسجيل "${course.name}"؟`)) {
+                unregisterCourse(course.id);
+            }
         } else {
             registerCourse(course.id);
         }
@@ -5931,435 +6121,345 @@ function createCourseCard(course, isRegistered) {
     return card;
 }
 
-// تسجيل مادة
+// ==================== تسجيل/إلغاء ====================
 function registerCourse(courseId) {
     const course = availableCourses.find(c => c.id === courseId);
     if (!course) return;
     
-    // التحقق من التداخل
-    const conflictCourse = getConflictCourse(course);
-    if (conflictCourse) {
-        showAlert('تداخل في الوقت', 
-            `هذه المادة تتداخل مع:<br>
-            <strong>${conflictCourse.name}</strong><br>
-            ${conflictCourse.day} ${conflictCourse.time}<br>
-            ${conflictCourse.instructor} - ${conflictCourse.room}`);
+    const conflict = getConflictCourse(course);
+    if (conflict) {
+        showAlert(
+            'تداخل في الوقت',
+            `المادة <strong>${course.name}</strong> تتداخل مع <strong>${conflict.name}</strong><br><small>${conflict.day} — ${conflict.time}</small>`,
+            'warning'
+        );
         return;
     }
     
-    // التحقق من الحد الأقصى للساعات
-    const currentCredits = registeredCourses.reduce((sum, c) => sum + c.credits, 0);
-    if (currentCredits + course.credits > 18) {
-        showAlert('تجاوز الحد الأقصى', 'لا يمكنك تسجيل أكثر من 18 ساعة معتمدة');
-        return;
-    }
-    
-    registeredCourses.push(course);
+    registeredCourses.push({ ...course });
     updateAllDisplays();
-    showAlert('تم التسجيل', `تم تسجيل مادة ${course.name} بنجاح!`, 'success');
+    showAlert('تم التسجيل', `تم تسجيل <strong>${course.name}</strong> بنجاح`, 'success');
 }
 
-// إلغاء تسجيل مادة
 function unregisterCourse(courseId) {
     registeredCourses = registeredCourses.filter(c => c.id !== courseId);
     updateAllDisplays();
 }
 
-// عرض المواد المسجلة
+// ==================== عرض المسجلة ====================
 function displayRegisteredCourses() {
     const container = document.getElementById('registered-courses');
+    if (!container) return;
     container.innerHTML = '';
     
+    const pill = document.getElementById('registered-pill');
+    if (pill) pill.textContent = `${registeredCourses.length} مادة`;
+    
     if (registeredCourses.length === 0) {
-        container.innerHTML = '<p class="no-courses">لا توجد مواد مسجلة بعد</p>';
+        container.innerHTML = `<div class="no-courses"><strong>لا توجد مواد مسجلة</strong>ابدأ بإضافة مواد من قسم "المواد"</div>`;
+        applyCompactMode();
         return;
     }
     
-    registeredCourses.forEach(course => {
-        const card = createCourseCard(course, true);
-        container.appendChild(card);
-    });
+    registeredCourses.forEach(c => container.appendChild(createCourseCard(c, true)));
+    applyCompactMode();
 }
 
-// عرض الجدول الأسبوعي
+// ==================== الجدول ====================
 function displayTimetable() {
-    const container = document.getElementById('timetable-body');
-    container.innerHTML = '';
+    const header = document.getElementById('timetable-header');
+    const body = document.getElementById('timetable-body');
+    if (!header || !body) return;
     
-    // إعادة ترتيب الأيام: السبت، الأحد، الإثنين، الثلاثاء
-    const days = ['السبت', 'الأحد', 'الاثنين', 'الثلاثاء'];
-    
-    // تحديث رأس الجدول
-    const timetableHeader = document.querySelector('.timetable-header');
-    timetableHeader.innerHTML = `
+    header.innerHTML = `
         <div class="time-slot">الوقت</div>
-        <div class=day>السبت</div>
-        <div class=day>الأحد</div>
-        <div class=day>الإثنين</div>
-        <div class=day>الثلاثاء</div>
+        ${DAYS.map(d => `<div>${d}</div>`).join('')}
     `;
     
-    // إضافة CSS الخاص بالجدول الجديد
-    addTimetableStyles();
-    
-    // إنشاء جميع الخلايا أولاً
+    body.innerHTML = '';
     timeSlots.forEach(time => {
-        // خلية الوقت
-        const timeCell = document.createElement('div');
-        timeCell.className = 'time-cell';
-        timeCell.textContent = time;
-        container.appendChild(timeCell);
+        const tCell = document.createElement('div');
+        tCell.className = 'time-cell';
+        tCell.textContent = time;
+        body.appendChild(tCell);
         
-        // خلايا الأيام لهذا الوقت
-        days.forEach(day => {
-            const dayCell = document.createElement('div');
-            dayCell.className = 'day-cell';
-            dayCell.dataset.day = day;
-            dayCell.dataset.time = time;
-            dayCell.style.position = 'relative';
-            container.appendChild(dayCell);
+        DAYS.forEach(day => {
+            const dCell = document.createElement('div');
+            dCell.className = 'day-cell';
+            dCell.dataset.day = day;
+            dCell.dataset.time = time;
+            body.appendChild(dCell);
         });
     });
     
-    // الآن إضافة المواد إلى الجدول
     registeredCourses.forEach(course => {
-        if (course.day && days.includes(course.day)) {
-            const dayIndex = days.indexOf(course.day);
-            
-            // الحصول على جميع الأوقات الفرعية للمادة
-            const courseSlots = getCourseTimeSlots(course);
-            
-            if (courseSlots.length > 0) {
-                const firstSlot = courseSlots[0];
-                const firstSlotIndex = timeSlots.indexOf(firstSlot);
-                
-                if (firstSlotIndex !== -1) {
-                    // حساب عدد الخلايا التي تحتاجها المادة
-                    const slotsCount = courseSlots.length;
-                    
-                    // العثور على الخلية الأولى للمادة
-                    // كل صف به 5 خلايا (1 للوقت + 4 للأيام)
-                    const cellIndex = (firstSlotIndex * (days.length + 1)) + (dayIndex + 1);
-                    const firstCell = container.children[cellIndex];
-                    
-                    if (firstCell) {
-                        // إزالة أي محتوى سابق في الخلية
-                        firstCell.innerHTML = '';
-                        
-                        // إنشاء عنصر المادة
-                        const courseElement = document.createElement('div');
-                        courseElement.className = `course-in-timetable ${course.type}`;
-                        courseElement.style.backgroundColor = course.color;
-                        courseElement.style.height = `calc(${slotsCount * 60}px - 4px)`;
-                        courseElement.innerHTML = `
-                            <div class="course-timetable-code">${course.code}</div>
-                            <div class="course-timetable-details">
-                                ${course.instructor}<br>
-                                ${course.room}
-                            </div>
-                        `;
-                        courseElement.addEventListener('click', (e) => {
-                            e.stopPropagation();
-                            unregisterCourse(course.id);
-                        });
-                        firstCell.appendChild(courseElement);
-                    }
-                }
+        if (!course.day || !DAYS.includes(course.day)) return;
+        const dayIdx = DAYS.indexOf(course.day);
+        const cSlots = getCourseTimeSlots(course);
+        if (!cSlots.length) return;
+        const firstIdx = timeSlots.indexOf(cSlots[0]);
+        if (firstIdx === -1) return;
+        
+        const cellIdx = firstIdx * (DAYS.length + 1) + (dayIdx + 1);
+        const cell = body.children[cellIdx];
+        if (!cell) return;
+        
+        const el = document.createElement('div');
+        el.className = `course-in-timetable ${course.type}`;
+        el.style.backgroundColor = course.color;
+        el.style.height = `calc(${cSlots.length * 60}px - 4px)`;
+        el.innerHTML = `
+            <div class="course-timetable-code">${course.code}</div>
+            <div class="course-timetable-details">${course.room}</div>
+        `;
+        el.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (confirm(`إلغاء تسجيل "${course.name}"؟`)) {
+                unregisterCourse(course.id);
             }
-        }
+        });
+        cell.appendChild(el);
     });
 }
 
-// إضافة أنماط CSS للجدول
-function addTimetableStyles() {
-    const styleId = 'timetable-styles';
-    if (document.getElementById(styleId)) {
-        document.getElementById(styleId).remove();
-    }
-    
-    const style = document.createElement('style');
-    style.id = styleId;
-    style.textContent = `
-        #timetable-body {
-            display: grid;
-            grid-template-columns: 100px repeat(4, 1fr);
-            grid-auto-rows: 60px;
-            gap: 1px;
-            background-color: #ddd;
-        }
-        
-        .time-cell, .day-cell {
-            background-color: white;
-            padding: 5px;
-            position: relative;
-            border: 1px solid #ddd;
-        }
-        
-        .time-cell {
-            font-weight: bold;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #f8f9fa;
-        }
-        
-        .day-cell {
-            min-height: 60px;
-        }
-        
-        .course-in-timetable {
-            position: absolute;
-            top: 2px;
-            left: 2px;
-            right: 2px;
-            bottom: 2px;
-            padding: 5px;
-            border-radius: 4px;
-            color: white;
-            font-size: 11px;
-            overflow: hidden;
-            cursor: pointer;
-            z-index: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            transition: transform 0.2s;
-        }
-        
-        .course-in-timetable:hover {
-            transform: scale(1.02);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        }
-        
-        .course-timetable-code {
-            font-weight: bold;
-            font-size: 12px;
-            margin-bottom: 2px;
-        }
-        
-        .course-timetable-details {
-            font-size: 10px;
-            line-height: 1.2;
-        }
-    `;
-    document.head.appendChild(style);
-}
-
-// تحديث الإحصائيات
+// ==================== الإحصائيات ====================
 function updateStats() {
-    const totalHours = registeredCourses.reduce((sum, course) => sum + course.credits, 0);
+    const totalHours = registeredCourses.reduce((s, c) => s + (c.credits || 0), 0);
     const totalCourses = registeredCourses.length;
+    const uniqueDays = new Set(registeredCourses.map(c => c.day)).size;
+    const theoryCount = registeredCourses.filter(c => c.type === 'theory').length;
     
-    document.getElementById('total-hours').textContent = totalHours;
-    document.getElementById('total-courses').textContent = totalCourses;
+    setText('stat-courses', totalCourses);
+    setText('stat-hours', totalHours);
+    setText('stat-days', uniqueDays);
+    setText('stat-theory', theoryCount);
+    
+    const breakdown = document.getElementById('breakdown');
+    if (breakdown) {
+        if (registeredCourses.length === 0) {
+            breakdown.innerHTML = `<div class="empty-breakdown">لا توجد بيانات لعرضها</div>`;
+        } else {
+            let html = `<div class="breakdown-title"><i class="fas fa-calendar-week"></i> توزيع المواد على الأيام</div>`;
+            DAYS.forEach(day => {
+                const courses = registeredCourses.filter(c => c.day === day);
+                if (courses.length > 0) {
+                    const hours = courses.reduce((s, c) => s + (c.credits || 0), 0);
+                    html += `
+                        <div class="day-breakdown-item">
+                            <span class="day-name"><span class="day-dot"></span>${day}</span>
+                            <span class="day-count">${courses.length} مادة${hours > 0 ? ` • ${hours} ساعة` : ''}</span>
+                        </div>
+                    `;
+                }
+            });
+            breakdown.innerHTML = html;
+        }
+    }
 }
 
-// تحديث جميع العروض
+function setText(id, val) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = val;
+}
+
+function updateBadges() {
+    const b = document.getElementById('badge-registered');
+    if (b) {
+        b.textContent = registeredCourses.length;
+        b.dataset.count = registeredCourses.length;
+    }
+}
+
 function updateAllDisplays() {
     displayAvailableCourses();
     displayRegisteredCourses();
     displayTimetable();
     updateStats();
+    updateBadges();
+    applyCompactMode();
 }
 
-// إعداد مستمعي الأحداث
+// ==================== مستمعي الأحداث ====================
 function setupEventListeners() {
-    // البحث والتصفية
-    document.getElementById('search').addEventListener('input', displayAvailableCourses);
-    document.getElementById('filter-theory').addEventListener('change', displayAvailableCourses);
-    document.getElementById('filter-lab').addEventListener('change', displayAvailableCourses);
-    
-    // الأزرار
-    document.getElementById('save-btn').addEventListener('click', saveRegistration);
-    document.getElementById('clear-btn').addEventListener('click', clearAll);
-    document.getElementById('print-btn').addEventListener('click', printTimetable);
-    
-    // النافذة المنبثقة
-    document.querySelector('.close').addEventListener('click', () => {
-        document.getElementById('alert-modal').style.display = 'none';
-    });
-    
-    document.getElementById('alert-ok').addEventListener('click', () => {
-        document.getElementById('alert-modal').style.display = 'none';
-    });
-    
-    // إضافة أيام الفلتر بعد إنشائها
-    setTimeout(() => {
-        ['السبت', 'الأحد', 'الاثنين', 'الثلاثاء'].forEach(day => {
-            const checkbox = document.getElementById(`filter-${day}`);
-            if (checkbox) {
-                checkbox.addEventListener('change', displayAvailableCourses);
+    const search = document.getElementById('search');
+    if (search) {
+        search.addEventListener('input', debounce(displayAvailableCourses, 120));
+        search.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                search.value = '';
+                displayAvailableCourses();
             }
         });
-    }, 100);
+    }
+    
+    document.getElementById('clear-search')?.addEventListener('click', () => {
+        if (search) {
+            search.value = '';
+            displayAvailableCourses();
+            search.focus();
+        }
+    });
+    
+    document.querySelectorAll('.chip[data-filter]').forEach(chip => {
+        chip.addEventListener('click', () => {
+            chip.classList.toggle('active');
+            displayAvailableCourses();
+        });
+    });
+    
+    const toggleBtn = document.getElementById('toggle-filters');
+    const filtersPanel = document.getElementById('filters-panel');
+    toggleBtn?.addEventListener('click', () => {
+        toggleBtn.classList.toggle('open');
+        filtersPanel?.classList.toggle('open');
+    });
+    
+    document.getElementById('theme-toggle')?.addEventListener('click', toggleTheme);
+    document.getElementById('compact-toggle')?.addEventListener('click', toggleCompactMode);
+    
+    document.getElementById('save-btn')?.addEventListener('click', saveRegistration);
+    document.getElementById('clear-btn')?.addEventListener('click', clearAll);
+    document.getElementById('print-btn')?.addEventListener('click', printTimetable);
+    
+    document.getElementById('alert-ok')?.addEventListener('click', closeAlert);
+    document.getElementById('alert-modal')?.addEventListener('click', (e) => {
+        if (e.target.id === 'alert-modal') closeAlert();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeAlert();
+    });
+    
+    const scrollBtn = document.getElementById('scroll-top');
+    window.addEventListener('scroll', () => {
+        scrollBtn?.classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+    scrollBtn?.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 }
 
-// حفظ التسجيل
+function debounce(fn, delay) {
+    let t;
+    return function(...args) {
+        clearTimeout(t);
+        t = setTimeout(() => fn.apply(this, args), delay);
+    };
+}
+
+// ==================== حفظ/مسح/طباعة ====================
 function saveRegistration() {
     if (registeredCourses.length === 0) {
-        showAlert('لا توجد مواد', 'لم تقم بتسجيل أي مواد بعد');
+        showAlert('لا توجد مواد', 'لم تقم بتسجيل أي مواد بعد', 'info');
         return;
     }
     
-    // إنشاء بيانات لحفظها
-    const registrationData = {
+    const data = {
         student: "طالب SPU",
         semester: "الفصل الثاني 2025-2026",
         date: new Date().toLocaleDateString('ar-SA'),
         courses: registeredCourses,
-        totalCredits: registeredCourses.reduce((sum, c) => sum + c.credits, 0)
+        totalCredits: registeredCourses.reduce((s, c) => s + (c.credits || 0), 0),
+        totalCourses: registeredCourses.length
     };
     
-    // حفظ في LocalStorage
-    localStorage.setItem('spu_registration', JSON.stringify(registrationData));
+    try { localStorage.setItem('spu_registration', JSON.stringify(data)); } catch (e) {}
     
-    // تنزيل كملف JSON
-    const dataStr = JSON.stringify(registrationData, null, 2);
-    const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+    const dataStr = JSON.stringify(data, null, 2);
+    const uri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
+    const link = document.createElement('a');
+    link.href = uri;
+    link.download = 'تسجيل_المواد_SPU.json';
+    link.click();
     
-    const exportFileDefaultName = 'تسجيل_المواد_SPU.json';
-    
-    const linkElement = document.createElement('a');
-    linkElement.setAttribute('href', dataUri);
-    linkElement.setAttribute('download', exportFileDefaultName);
-    linkElement.click();
-    
-    showAlert('تم الحفظ', 'تم حفظ جدولك بنجاح وتم تنزيل ملف التسجيل!', 'success');
+    showAlert('تم الحفظ', 'تم حفظ جدولك وتنزيل الملف بنجاح', 'success');
 }
 
-// مسح الكل
 function clearAll() {
     if (registeredCourses.length === 0) return;
-    
     if (confirm('هل أنت متأكد من مسح جميع المواد المسجلة؟')) {
         registeredCourses = [];
         updateAllDisplays();
-        showAlert('تم المسح', 'تم مسح جميع المواد المسجلة', 'info');
+        showAlert('تم المسح', 'تم مسح جميع المواد', 'info');
     }
 }
 
-// طباعة الجدول
 function printTimetable() {
     if (registeredCourses.length === 0) {
-        showAlert('لا يوجد جدول', 'لا يوجد جدول لطباعته');
+        showAlert('لا يوجد جدول', 'لا يوجد جدول لطباعته', 'info');
         return;
     }
     
-    // إنشاء نافذة طباعة
-    const printWindow = window.open('', '_blank');
-    printWindow.document.write(`
+    const w = window.open('', '_blank');
+    w.document.write(`
         <!DOCTYPE html>
         <html dir="rtl" lang="ar">
         <head>
             <meta charset="UTF-8">
             <title>جدولي الأسبوعي - SPU</title>
+            <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;600;700;800&display=swap" rel="stylesheet">
             <style>
-                body { font-family: Arial, sans-serif; padding: 20px; direction: rtl; }
-                h1 { color: #2C3E50; text-align: center; }
-                h2 { color: #3498db; }
-                .header { text-align: center; margin-bottom: 30px; }
-                .timetable { width: 100%; border-collapse: collapse; margin-top: 20px; }
-                .timetable th, .timetable td { border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: top; }
-                .timetable th { background-color: #2C3E50; color: white; }
-                .course-cell { padding: 5px; border-radius: 4px; color: white; margin: 2px; }
-                .course-list { margin-top: 30px; }
-                .course-item { padding: 10px; border-bottom: 1px solid #eee; }
-                @media print {
-                    .no-print { display: none; }
-                    body { font-size: 11pt; }
-                }
+                * { box-sizing: border-box; }
+                body { font-family: 'Tajawal', Arial, sans-serif; padding: 20px; direction: rtl; color: #0f172a; }
+                .header { text-align: center; margin-bottom: 30px; border-bottom: 3px solid #6366f1; padding-bottom: 15px; }
+                h1 { color: #0f172a; margin-bottom: 5px; font-size: 22px; }
+                h2 { color: #6366f1; margin-top: 30px; font-size: 17px; }
+                .sub { color: #475569; font-size: 14px; }
+                .timetable { width: 100%; border-collapse: collapse; margin-top: 15px; border-radius: 12px; overflow: hidden; }
+                .timetable th, .timetable td { border: 1px solid #e2e8f0; padding: 10px; text-align: center; vertical-align: middle; font-size: 13px; }
+                .timetable th { background: #6366f1; color: white; font-weight: 700; }
+                .course-item { padding: 12px; border-bottom: 1px solid #f1f5f9; }
+                .total { margin-top: 20px; padding: 15px; background: #f4f6fb; border-right: 4px solid #6366f1; border-radius: 8px; font-weight: 700; }
+                .no-print { margin-top: 30px; text-align: center; }
+                .btn { padding: 12px 25px; border: none; border-radius: 10px; cursor: pointer; font-size: 14px; font-weight: 700; font-family: inherit; margin: 0 5px; }
+                .btn-print { background: #6366f1; color: white; }
+                .btn-close { background: #ef4444; color: white; }
+                @media print { .no-print { display: none; } }
             </style>
         </head>
         <body>
             <div class="header">
                 <h1>الجامعة السورية الخاصة</h1>
-                <h2>كلية هندسة الذكاء الاصطناعي</h2>
-                <h3>الفصل الثاني 2025-2026</h3>
-                <p>تاريخ الطباعة: ${new Date().toLocaleDateString('ar-SA')}</p>
+                <p class="sub">كلية هندسة الذكاء الاصطناعي</p>
+                <p class="sub">الفصل الثاني 2025-2026 — ${new Date().toLocaleDateString('ar-SA')}</p>
             </div>
-            
             <h2>الجدول الأسبوعي</h2>
             ${generatePrintableTimetable()}
-            
-            <div class="course-list">
-                <h2>المواد المسجلة</h2>
-                ${generatePrintableCoursesList()}
-            </div>
-            
-            <div class="no-print" style="margin-top: 50px; text-align: center;">
-                <button onclick="window.print()" style="padding: 10px 20px; background: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer;">
-                    طباعة الجدول
-                </button>
-                <button onclick="window.close()" style="padding: 10px 20px; background: #e74c3c; color: white; border: none; border-radius: 5px; cursor: pointer; margin-right: 10px;">
-                    إغلاق
-                </button>
+            <h2>المواد المسجلة</h2>
+            ${generatePrintableCoursesList()}
+            <div class="no-print">
+                <button class="btn btn-print" onclick="window.print()">طباعة</button>
+                <button class="btn btn-close" onclick="window.close()">إغلاق</button>
             </div>
         </body>
         </html>
     `);
-    printWindow.document.close();
+    w.document.close();
 }
 
-// توليد جدول للطباعة
 function generatePrintableTimetable() {
-    const days = ['السبت', 'الأحد', 'الاثنين', 'الثلاثاء'];
-    let html = '<table class="timetable">';
-    
-    // الرأس
-    html += '<tr><th>الوقت</th>';
-    days.forEach(day => html += `<th>${day}</th>`);
+    let html = '<table class="timetable"><tr><th>الوقت</th>';
+    DAYS.forEach(d => html += `<th>${d}</th>`);
     html += '</tr>';
     
-    // إنشاء مصفوفة لتتبع الخلايا المدمجة
-    const rowspanTracker = {};
-    
-    // الصفوف
-    timeSlots.forEach((time, timeIndex) => {
-        html += `<tr><td style="background-color:#f8f9fa; font-weight:bold;">${time}</td>`;
-        
-        days.forEach(day => {
-            // تحقق إذا كانت هذه الخلية جزء من خلية مدمجة
-            if (rowspanTracker[`${day}-${timeIndex}`]) {
-                return; // تخطي هذه الخلية
-            }
-            
-            let courseForThisSlot = null;
-            let slotsCount = 1;
-            
-            // البحث عن مادة في هذا اليوم وهذا الوقت
-            registeredCourses.forEach(course => {
-                if (course.day === day) {
-                    const courseTime = timeToMinutes(course.time);
-                    const slotTime = timeToMinutes(time);
-                    
-                    // إذا كان وقت الحصة ضمن وقت المادة
-                    if (slotTime.start >= courseTime.start && slotTime.end <= courseTime.end) {
-                        const allSlots = getCourseTimeSlots(course);
-                        // فقط عرض المادة في أول حصة لها
-                        if (time === allSlots[0]) {
-                            slotsCount = allSlots.length;
-                            courseForThisSlot = course;
-                            
-                            // تتبع الخلايا المدمجة
-                            for (let i = 1; i < slotsCount; i++) {
-                                rowspanTracker[`${day}-${timeIndex + i}`] = true;
-                            }
-                        }
-                    }
+    const tracker = {};
+    timeSlots.forEach((time, idx) => {
+        html += `<tr><td style="background:#f8fafc;font-weight:700;">${time}</td>`;
+        DAYS.forEach(day => {
+            if (tracker[`${day}-${idx}`]) return;
+            let course = null, count = 1;
+            for (const c of registeredCourses) {
+                if (c.day !== day) continue;
+                const slots = getCourseTimeSlots(c);
+                if (slots[0] === time) {
+                    course = c;
+                    count = slots.length;
+                    for (let i = 1; i < count; i++) tracker[`${day}-${idx + i}`] = true;
+                    break;
                 }
-            });
-            
-            if (courseForThisSlot) {
-                html += `<td rowspan="${slotsCount}" style="background-color:${courseForThisSlot.color}; color:white; vertical-align:middle;">
-                    <div style="padding:10px;">
-                        <strong style="font-size:14px;">${courseForThisSlot.code}</strong><br>
-                        <span style="font-size:12px;">${courseForThisSlot.instructor}</span><br>
-                        <span style="font-size:11px;">${courseForThisSlot.room}</span>
-                    </div>
+            }
+            if (course) {
+                html += `<td rowspan="${count}" style="background:${course.color};color:white;vertical-align:middle;">
+                    <strong>${course.code}</strong><br><small>${course.room}</small>
                 </td>`;
             } else {
                 html += '<td></td>';
@@ -6367,72 +6467,56 @@ function generatePrintableTimetable() {
         });
         html += '</tr>';
     });
-    
     html += '</table>';
     return html;
 }
 
-// توليد قائمة المواد للطباعة
 function generatePrintableCoursesList() {
     let html = '';
-    const groupedCourses = {};
-    
-    registeredCourses.forEach(course => {
-        if (!groupedCourses[course.code]) {
-            groupedCourses[course.code] = {
-                name: course.name,
-                credits: course.credits,
-                instances: []
-            };
-        }
-        groupedCourses[course.code].instances.push(course);
-    });
-    
-    for (const [code, data] of Object.entries(groupedCourses)) {
+    registeredCourses.forEach(c => {
         html += `<div class="course-item">
-            <h3>${code} - ${data.name} (${data.credits} ساعة)</h3>`;
-        
-        data.instances.forEach(instance => {
-            const courseSlots = getCourseTimeSlots(instance);
-            const slotsCount = courseSlots.length;
-            
-            html += `<p>${instance.day} ${instance.time} (${slotsCount} حصة) - ${instance.room} - ${instance.instructor} - ${instance.type === 'theory' ? 'نظري' : 'عملي'}</p>`;
-        });
-        
-        html += '</div>';
-    }
-    
-    // المجموع
-    const totalCredits = registeredCourses.reduce((sum, c) => sum + c.credits, 0);
-    html += `<div style="margin-top:20px; padding:15px; background:#f8f9fa; border-radius:5px;">
-        <strong>المجموع: ${registeredCourses.length} مادة - ${totalCredits} ساعة معتمدة</strong>
-    </div>`;
-    
+            <strong>${c.code}</strong> — ${c.name}<br>
+            <small style="color:#475569;">${c.day} • ${c.time} • ${c.room} • ${c.instructor} • ${c.type === 'theory' ? 'نظري' : 'عملي'}</small>
+        </div>`;
+    });
+    const total = registeredCourses.reduce((s, c) => s + (c.credits || 0), 0);
+    html += `<div class="total">المجموع: ${registeredCourses.length} مادة — ${total} ساعة معتمدة</div>`;
     return html;
 }
 
-// عرض التنبيهات
+// ==================== التنبيهات ====================
 function showAlert(title, message, type = 'warning') {
-    document.getElementById('alert-title').textContent = title;
-    document.getElementById('alert-message').innerHTML = message;
-    
     const modal = document.getElementById('alert-modal');
-    modal.style.display = 'block';
-    
-    // تغيير لون الزر حسب النوع
+    const icon = document.getElementById('alert-icon');
+    const titleEl = document.getElementById('alert-title');
+    const msgEl = document.getElementById('alert-message');
     const okBtn = document.getElementById('alert-ok');
+    if (!modal) return;
+    
+    titleEl.textContent = title;
+    msgEl.innerHTML = message;
+    
     if (type === 'success') {
-        okBtn.style.background = 'linear-gradient(135deg, #2ecc71, #27ae60)';
+        icon.style.background = 'rgba(16, 185, 129, 0.12)';
+        icon.style.color = '#10b981';
+        icon.innerHTML = '<i class="fas fa-check-circle"></i>';
     } else if (type === 'info') {
-        okBtn.style.background = 'linear-gradient(135deg, #3498db, #2980b9)';
+        icon.style.background = 'rgba(99, 102, 241, 0.12)';
+        icon.style.color = '#6366f1';
+        icon.innerHTML = '<i class="fas fa-info-circle"></i>';
     } else {
-        okBtn.style.background = 'linear-gradient(135deg, #e74c3c, #c0392b)';
+        icon.style.background = 'rgba(239, 68, 68, 0.12)';
+        icon.style.color = '#ef4444';
+        icon.innerHTML = '<i class="fas fa-exclamation-triangle"></i>';
     }
+    
+    modal.style.display = 'block';
 }
 
-// تهيئة التطبيق عند تحميل الصفحة
+function closeAlert() {
+    const modal = document.getElementById('alert-modal');
+    if (modal) modal.style.display = 'none';
+}
+
+// ==================== بدء ====================
 document.addEventListener('DOMContentLoaded', initApp);
-
-
-
-
